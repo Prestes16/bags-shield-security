@@ -1,6 +1,4 @@
-﻿# Bags Shield Security
-
-**Evidence-driven security research + hardening.**  
+﻿# <span class="notranslate" translate="no">Bags Shield Security</span>**Evidence-driven security research + hardening.**  
 Focused on Web3/Solana, integrations, APIs, webhooks, authentication, secrets, and release safety.
 
 > Want this in another language? Use your browser’s built-in translator.
@@ -44,3 +42,4 @@ Everything here is **evidence**, **clarity**, and **mitigation**.
 
 ## Team
 **Bags Shield Security — Cleiton + Luna**
+
