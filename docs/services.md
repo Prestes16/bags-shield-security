@@ -1,74 +1,95 @@
-﻿# Security engagements
+﻿---
+title: Services
+---
 
-Bags Shield Security provides **evidence-driven security assurance** for teams shipping fast.
-We focus on what actually prevents incidents: **secure defaults, integration hardening, and release safety**.
+# Services
 
-> We don’t sell hype. We ship clarity: evidence → impact → mitigation.
+We provide boutique security research and engineering hardening for Web3 systems — evidence-led, release-aware, and client-safe.
+
+Focus areas: Solana/Web3 integrations, APIs, webhooks, authentication, secrets handling, and release safety.
 
 ---
 
-## Engagement types
+## Engagement models
 
-### 1) Retainer (monthly assurance)
-Best for teams with continuous shipping.
-- Ongoing PR review cadence
-- One focused module review per month (or per sprint)
-- Lightweight monthly memo (executive + technical appendix)
-- Risk register maintenance (prioritized, owned, actionable)
+### 1) Rapid PR / Patch Review (48–72h)
+For urgent merges, hotfixes, and release windows.
 
-### 2) Sprint review (1–2 weeks)
-Best for launches or major refactors.
-- Threat model snapshot (practical, not academic)
-- Deep review of a critical surface (auth/webhooks/keys/permissions)
-- Hardening plan + minimal, testable changes
-- Release gate checklist tailored to your stack
+**Deliverables**
+- Review notes with clear risk calls (block / warn / ok)
+- Minimal patch suggestions (surgical, testable, review-friendly)
+- Release checklist (what to validate before shipping)
 
-### 3) PR gate (release readiness)
-Best when you want a consistent bar before merging.
-- Security checklist enforced on PRs
-- Release safety checks (secrets/logging/error discipline)
-- Regression-minded review notes (what breaks later)
+**Starting fee (USD):** 750–2,500
 
 ---
 
-## What you receive (deliverables)
+### 2) Hardening Sprint (10 business days)
+A focused push to reduce the highest-risk failure modes.
 
-- **Risk register** (prioritized findings with owners + next steps)
-- **Evidence notes (lab-safe)**: what was observed and why it matters
-- **Mitigation guidance** with tradeoffs (time-to-fix vs. risk)
-- **Release gate** checklist (repeatable, not one-off)
-- **Regression recommendations** to prevent reintroduction
+**Best for**
+- Auth boundaries and permission surfaces
+- Webhook verification + replay resistance
+- Secrets exposure paths + logging hygiene
+- Abuse resistance (rate limits, timeouts, safe defaults)
 
----
+**Deliverables**
+- Practical module notes (risk-first)
+- Hardening PRs (small, clean diffs)
+- Smoke/regression checks to prevent expensive breakage
 
-## Operating model
-
-### Cadence
-- Weekly or sprint-based routine (async-first)
-- Focused, small batches to avoid thrash
-
-### Response window (typical)
-- PR review feedback within **24–72 hours**, depending on queue and scope
-
-### Scope boundaries (non-negotiable)
-- Within scope and permission only
-- No production exploitation
-- No retention of credentials
-- No publication of exploit-enabling details
+**Starting fee (USD):** 6,000–15,000
 
 ---
 
-## Fast start (30-day pilot)
+### 3) Monthly Retainer (30 days)
+Ongoing review gate + hardening throughput.
 
-A low-friction way to begin:
-1) Select **one critical module** (auth/webhooks/keys/permissions)
-2) Set PR review cadence (weekly or per sprint)
-3) Deliver: risk register + mitigation plan + release gate checklist
-4) End of month: concise memo + next-month priorities
+**Includes**
+- Weekly cadence and predictable delivery
+- Release-readiness gate for major deploys
+- Continuous backlog reduction (PR-sized work)
+
+**Starting fee (USD):** 10,000–25,000
 
 ---
 
-## Contact
-- X (Twitter): @Cleiton16144221  
-- Discord: @cleiton8509p  
-- Email: Cleitonprestes54@gmail.com
+### 4) Quarterly Retainer (90 days)
+For teams that want a visible, consistent security program.
+
+**Includes**
+- Monthly roadmap (risk-first, scoped)
+- Hardening + regression expansion
+- Executive summary per month (what improved, what remains)
+
+**Starting fee (USD):** 25,000–60,000
+
+---
+
+## Smart contract support (public-safe)
+We support contract engagements via invariant analysis, testing strategy, and remediation tracking. Full reviews vary by scope and complexity; we quote after short scoping.
+
+---
+
+## Payment & logistics
+
+- **Pricing:** USD (payment accepted in **USDC/USDT**)
+- **Structure:** milestone-based or monthly
+- **Scope discipline:** strictly within agreed scope and policy boundaries
+- **No production targeting:** no exploitation attempts against live systems
+- **Redaction:** sensitive details are removed from public writeups
+
+---
+
+## How to start
+
+Send:
+- repo / docs link (or a minimal private snippet set)
+- target deadline / release window
+- top 3 concerns (ex.: webhooks, auth, secrets)
+
+We reply with:
+- scoped plan (what we will and won’t do)
+- timeline
+- fixed quote or retainer option
+
