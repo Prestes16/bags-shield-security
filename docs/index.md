@@ -1,57 +1,70 @@
-﻿---
+---
 title: Bags Shield Security
 ---
 
-## Overview
-Boutique security research and engineering hardening — **evidence-led**, **release-aware**, and **client-safe**.
+<div class="bss-hero">
+  <div class="bss-kicker">Boutique security • evidence-led • release-aware</div>
+  <h1 class="bss-title"><span translate="no">Bags Shield Security</span></h1>
+  <p class="bss-lead">
+    Security research + engineering hardening for Web3/Solana systems —
+    integrations, APIs, webhooks, authentication, secrets handling, and release safety.
+  </p>
 
-Focused on Web3/Solana, integrations, APIs, webhooks, authentication, secrets, and release safety.
+  <div class="bss-pills">
+    <a class="bss-pill" href="./start/">Start here</a>
+    <a class="bss-pill" href="./casebooks/">Case studies</a>
+    <a class="bss-pill" href="./services/">Services</a>
+    <a class="bss-pill" href="./standards/">Operating standards</a>
+  </div>
 
-> Want this in another language? Use your browser’s built-in translator.  
-> **Brand note:** <span translate="no">Bags Shield Security</span> should not be translated.
+  <div class="bss-metrics">
+    <div class="bss-metric"><div class="k">Turnaround</div><div class="v">48–72h reviews</div></div>
+    <div class="bss-metric"><div class="k">Delivery</div><div class="v">PR-sized, review-friendly</div></div>
+    <div class="bss-metric"><div class="k">Scope</div><div class="v">Policy-safe, client-safe</div></div>
+  </div>
+</div>
 
----
+<hr />
 
-## What you’ll find here
-- **Case studies (sanitized):** outcomes, risk reduction, and mitigations (no exploit details)
-- **Engineering portfolio:** secure-by-default patterns applied in real code and process
-- **Operating standards (public):** how we work, what we publish, and what we refuse to publish
+<div class="bss-grid">
+  <div class="bss-card">
+    <h2>Case studies (sanitized)</h2>
+    <p>Executive memos based on real work: outcomes, mitigations, and risk reduction. No exploit steps.</p>
+    <p class="bss-cta"><a href="./casebooks/">Browse case studies →</a></p>
+  </div>
 
----
+  <div class="bss-card">
+    <h2>Engineering hardening</h2>
+    <p>Secure-by-default improvements applied to real code and process: auth boundaries, webhook verification, logging hygiene, abuse resistance.</p>
+    <p class="bss-cta"><a href="./services/">View services →</a></p>
+  </div>
 
-## Start here
-- Start here (one-page): [Start](./start.md)
-- Case studies hub: [Case studies (sanitized)](./casebooks/)
-- Portfolio hub: [Engineering portfolio](./portfolio/)
-- Public research log: [Research log (sanitized)](./portfolio/research-log.md)
-- Services: [Security engagements](./services.md)
-- Disclosure: [Responsible disclosure & redaction policy](./disclosure.md)
-- Standards: [Operating standards (public)](./standards.md)
+  <div class="bss-card">
+    <h2>Operating standards</h2>
+    <p>How we work: evidence first, minimal disruption, scope discipline, and release safety.</p>
+    <p class="bss-cta"><a href="./standards/">Read standards →</a></p>
+  </div>
+</div>
 
----
+<hr />
 
 ## What we do
-- Security PR reviews with a **release-readiness gate** (checks + actionable feedback)
-- Hardening for endpoints, integrations, and webhooks (auth, secrets, abuse resistance)
-- Lightweight threat modeling per module (practical and shippable)
-- Regression/smoke checks to prevent incidents and expensive breakage
 
----
-
-## How we work
-- **Evidence first:** reproducible behavior, impact analysis, mitigations
-- **Minimal disruption:** changes are surgical, testable, review-friendly
-- **Scope-respecting:** no production exploitation; no sensitive details published
-- **Delivery focus:** security tied to reliability and release safety
-
----
+<ul class="bss-check">
+  <li>Security PR reviews with a release-readiness gate (block / warn / ok)</li>
+  <li>Hardening for endpoints, integrations, and webhooks (auth, secrets, replay resistance)</li>
+  <li>Threat modeling per module (small, practical, shipped)</li>
+  <li>Smoke/regression checks to prevent expensive breakage</li>
+</ul>
 
 ## Contact
-- X (Twitter): @Cleiton16144221
-- Discord: @cleiton8509p
-- Email: Cleitonprestes54@gmail.com
 
----
+<ul class="bss-compact">
+  <li><strong>X:</strong> <a href="https://x.com/Cleiton16144221" rel="noopener">@@Cleiton16144221</a></li>
+  <li><strong>Discord:</strong> cleiton8509p</li>
+  <li><strong>Email:</strong> Cleitonprestes54@gmail.com</li>
+</ul>
 
 ## Team
+
 <span translate="no">Bags Shield Security</span> — Cleiton + Luna
