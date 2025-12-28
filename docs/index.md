@@ -1,13 +1,13 @@
 ﻿# Bags Shield Security
 
 **Evidence-driven security research + hardening.**  
-Focused on Web3/Solana, integrations, APIs, webhooks, auth, secrets, and release safety.
+Focused on Web3/Solana, integrations, APIs, webhooks, authentication, secrets, and release safety.
 
-**Language:** [English](./) • [Português](./pt/)
+> Want this in another language? Use your browser’s built-in translator.
 
 ---
 
-## What you'll find here
+## What you’ll find here
 - ✅ **Paid casebook:** SNS Records / ROA  
 - ✅ **Engineering portfolio:** Bags Shield (security applied in real code + process)  
 - ✅ **Public method:** HARD / anti-fantasy (ethics + reproducibility)
@@ -36,7 +36,7 @@ Everything here is **evidence**, **clarity**, and **mitigation**.
 ---
 
 ## Contact
-- X: @Cleiton16144221
+- X (Twitter): @Cleiton16144221
 - Discord: @cleiton8509p
 - Email: Cleitonprestes54@gmail.com
 
