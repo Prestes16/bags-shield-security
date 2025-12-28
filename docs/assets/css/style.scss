@@ -96,3 +96,38 @@ a:hover{ color: var(--bss-accent); }
 
 /* Little “consultancy” touch: nicer lists */
 .main-content ul li { margin: .25rem 0; }
+
+/* =========================
+   BSS header glow animation (subtle, premium)
+   ========================= */
+.page-header{
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::before{
+  content: "";
+  position: absolute;
+  inset: -120px;
+  pointer-events: none;
+  background:
+    radial-gradient(480px 260px at 25% 30%, rgba(47,167,255,.18), rgba(0,0,0,0) 70%),
+    radial-gradient(420px 220px at 75% 45%, rgba(77,212,255,.14), rgba(0,0,0,0) 72%),
+    radial-gradient(360px 200px at 55% 15%, rgba(38,211,138,.08), rgba(0,0,0,0) 70%);
+  filter: blur(10px);
+  opacity: .95;
+  transform: translate3d(0,0,0);
+  animation: bssGlowDrift 14s ease-in-out infinite;
+}
+
+@keyframes bssGlowDrift{
+  0%   { transform: translate3d(-10px,-8px,0) scale(1.02); opacity:.85; }
+  50%  { transform: translate3d(12px,10px,0) scale(1.06); opacity:1; }
+  100% { transform: translate3d(-10px,-8px,0) scale(1.02); opacity:.85; }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .page-header::before{ animation: none; }
+}
+
