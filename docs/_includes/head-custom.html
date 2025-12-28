@@ -1,14 +1,30 @@
 ﻿<!-- start custom head snippets -->
-<meta http-equiv="Content-Language" content="{{ page.lang | default: site.lang | default: 'en' }}">
-<meta name="language" content="{{ page.lang | default: site.lang | default: 'en' }}">
+<meta http-equiv="Content-Language" content="{{ page.lang | default: site.lang | default: 'en-US' }}">
+<meta name="language" content="{{ page.lang | default: site.lang | default: 'en-US' }}">
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var el = document.querySelector('.project-name'); // Cayman theme title
-  if (el) {
+(function () {
+  const BRAND = "Bags Shield Security";
+
+  function forceBrand() {
+    const el = document.querySelector('.project-name');
+    if (!el) return;
     el.setAttribute('translate', 'no');
     el.classList.add('notranslate');
+    if ((el.textContent || '').trim() !== BRAND) {
+      el.textContent = BRAND;
+    }
   }
-});
+
+  document.addEventListener('DOMContentLoaded', function () {
+    forceBrand();
+
+    const target = document.querySelector('header') || document.body;
+    if (!target) return;
+
+    const obs = new MutationObserver(function () { forceBrand(); });
+    obs.observe(target, { childList: true, subtree: true, characterData: true });
+  });
+})();
 </script>
 <!-- end custom head snippets -->
