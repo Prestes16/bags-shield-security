@@ -1,5 +1,8 @@
 ﻿title: Bags Shield Security
 description: Evidence-driven security research, hardening, and PR reviews (EN)
 theme: jekyll-theme-cayman
-lang: en
-locale: en_US
+url: https://prestes16.github.io
+baseurl: /bags-shield-security
+show_downloads: false
+sass:
+  style: compressed
