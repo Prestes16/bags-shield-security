@@ -1,6 +1,6 @@
 ﻿# Bags Shield Security
 
-**Pesquisa de segurança + hardening com evidência.**  
+**Pesquisa de segurança + endurecimento com evidência.**  
 Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e segurança de lançamento.
 
 ---
@@ -14,14 +14,14 @@ Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e s
 - Casebook: [SNS Records / ROA (pago)](./casebooks/sns-roa-paid.md)
 - Portfólio: [Bags Shield (engenharia segura)](./portfolio/bags-shield.md)
 - Método: [HARD / anti-fantasia (público)](./method/hard-public.md)
-- Serviços: [Retainer mensal (trampo fixo)](./services.md)
+- Serviços: [Plano mensal (trampo fixo)](./services.md)
 - Divulgação: [Divulgação responsável & limites](./disclosure.md)
 
 ---
 
 ## O que a gente faz (bem direto)
 - **Revisão de PRs** com checklist de segurança e checklist de lançamento
-- **Hardening** de endpoints, integrações e webhooks
+- **Endurecimento** de endpoints, integrações e webhooks
 - **Mini modelo de ameaça** por módulo (1 por mês)
 - **Testes de fumaça/regressão** pra evitar incidentes e regressões
 
