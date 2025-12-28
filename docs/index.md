@@ -1,7 +1,7 @@
 ﻿# Bags Shield Security
 
 **Pesquisa de segurança + hardening com evidência.**  
-Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e segurança de release.
+Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e segurança de lançamento.
 
 ---
 
@@ -15,15 +15,15 @@ Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e s
 - Portfólio: [Bags Shield (engenharia segura)](./portfolio/bags-shield.md)
 - Método: [HARD / anti-fantasia (público)](./method/hard-public.md)
 - Serviços: [Retainer mensal (trampo fixo)](./services.md)
-- Disclosure: [Divulgação responsável & limites](./disclosure.md)
+- Divulgação: [Divulgação responsável & limites](./disclosure.md)
 
 ---
 
 ## O que a gente faz (bem direto)
-- **PR review** com checklist de segurança e “release safety”
+- **Revisão de PRs** com checklist de segurança e checklist de lançamento
 - **Hardening** de endpoints, integrações e webhooks
-- **Mini threat-model** por módulo (1 por mês)
-- **Smokes/regressão** pra evitar incidentes e regressões
+- **Mini modelo de ameaça** por módulo (1 por mês)
+- **Testes de fumaça/regressão** pra evitar incidentes e regressões
 
 ---
 
