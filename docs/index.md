@@ -1,44 +1,46 @@
 ﻿# Bags Shield Security
 
-**Pesquisa de segurança + endurecimento com evidência.**  
-Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e segurança de lançamento.
+**Evidence-driven security research + hardening.**  
+Focused on Web3/Solana, integrations, APIs, webhooks, auth, secrets, and release safety.
+
+**Language:** English • [Português](./pt/)
 
 ---
 
-## O que você encontra aqui (vitrine)
-- ✅ **Casebook (pago):** SNS Records / ROA  
-- ✅ **Portfólio de engenharia:** Bags Shield (segurança aplicada no código e no processo)  
-- ✅ **Método público:** HARD / anti-fantasia (ética + reprodutibilidade)
+## What you’ll find here
+- ✅ **Paid casebook:** SNS Records / ROA  
+- ✅ **Engineering portfolio:** Bags Shield (security applied in real code + process)  
+- ✅ **Public method:** HARD / anti-fantasy (ethics + reproducibility)
 
-### Links rápidos
-- Casebook: [SNS Records / ROA (pago)](./casebooks/sns-roa-paid.md)
-- Portfólio: [Bags Shield (engenharia segura)](./portfolio/bags-shield.md)
-- Método: [HARD / anti-fantasia (público)](./method/hard-public.md)
-- Serviços: [Plano mensal (trampo fixo)](./services.md)
-- Divulgação: [Divulgação responsável & limites](./disclosure.md)
-
----
-
-## O que a gente faz (bem direto)
-- **Revisão de PRs** com checklist de segurança e checklist de lançamento
-- **Endurecimento** de endpoints, integrações e webhooks
-- **Mini modelo de ameaça** por módulo (1 por mês)
-- **Testes de fumaça/regressão** pra evitar incidentes e regressões
+### Quick links
+- Casebook: [SNS Records / ROA (paid)](./casebooks/sns-roa-paid.md)
+- Portfolio: [Bags Shield (secure engineering)](./portfolio/bags-shield.md)
+- Method: [HARD (public)](./method/hard-public.md)
+- Services: [Monthly retainer](./services.md)
+- Disclosure: [Responsible disclosure & limits](./disclosure.md)
 
 ---
 
-## Ética e profissionalismo
-A gente trabalha **dentro de escopo**, sem exploração em produção e sem publicar detalhes que facilitem abuso.  
-Tudo aqui é **evidência**, **clareza** e **mitigação**.
+## What we do (straight to the point)
+- **PR reviews** with security + release checklists
+- **Hardening** for endpoints, integrations, and webhooks
+- **Mini threat model** per module (monthly)
+- **Smoke/regression checks** to prevent incidents and breakage
 
 ---
 
-## Contato (preencha depois)
-- X: @SEU_USER
-- Discord: SEU_USER
-- Email: SEU_EMAIL
+## Ethics & professionalism
+We operate **within scope**, do not exploit production systems, and do not publish details that enable abuse.  
+Everything here is **evidence**, **clarity**, and **mitigation**.
 
 ---
 
-## Equipe
+## Contact (fill later)
+- X: @YOUR_HANDLE
+- Discord: YOUR_HANDLE
+- Email: YOUR_EMAIL
+
+---
+
+## Team
 **Bags Shield Security — Cleiton + Luna**

@@ -1,53 +1,53 @@
-﻿# Serviços — Plano mensal (trampo fixo)
+﻿# Services — Monthly retainer
 
-A proposta aqui é simples: **ganhar por produção, não por sorte**.  
-Segurança contínua pra times pequenos que fazem deploy rápido.
-
----
-
-## Pacotes (modelo)
-### Bronze — 4h/mês
-- Revisão de PRs (comentários acionáveis)
-- Checklist de lançamento
-- Backlog de riscos (priorizado)
-
-### Prata — 8h/mês
-- Tudo do Bronze +
-- 1 análise profunda/mês (módulo crítico)
-- Mini relatório (1–2 páginas)
-
-### Ouro — 16h/mês
-- Tudo do Prata +
-- Endurecimento guiado (webhooks/autenticação/segredos)
-- Testes de fumaça/regressão + métricas básicas
+Simple goal: **get paid for output, not luck**.  
+Continuous security support for teams shipping fast.
 
 ---
 
-## Piloto (30 dias) — o jeito mais fácil de começar
-- 2 revisões por semana (PRs)
-- 1 análise profunda (módulo crítico)
-- checklist de lançamento + backlog final
-- relatório final curto e objetivo
+## Packages (template)
+### Bronze — 4h/month
+- PR reviews (actionable feedback)
+- Release checklist
+- Risk backlog (prioritized)
+
+### Silver — 8h/month
+- Everything in Bronze +
+- 1 deep dive/month (critical module)
+- Mini report (1–2 pages)
+
+### Gold — 16h/month
+- Everything in Silver +
+- Guided hardening (webhooks/auth/secrets)
+- Smoke/regression checks + basic metrics
 
 ---
 
-## Como a gente trabalha
-- Escopo claro por semana (sem caos)
-- Comunicação objetiva (assíncrono primeiro)
-- Evidência → impacto → mitigação
-- Sem segredos em logs e sem exposição de dados sensíveis
+## 30-day pilot (easiest way to start)
+- 2 PR review sessions/week
+- 1 deep dive (critical module)
+- release checklist + final backlog
+- short final report
 
 ---
 
-## O que NÃO fazemos
-- Nada fora de escopo
-- Nada em produção
-- Nada que envolva segredos, chaves ou dados privados
-- Nada de “consultoria fantasma” sem evidência
+## How we work
+- Clear weekly scope (no chaos)
+- Async-first communication
+- Evidence → impact → mitigation
+- No secrets in logs, no sensitive data exposure
 
 ---
 
-## Próximos passos (quando você estiver pronto)
-1) Escolher 1 módulo crítico
-2) Definir rotina de revisão de PRs
-3) Rodar 30 dias e medir resultado
+## What we do NOT do
+- Anything out of scope
+- Anything in production
+- Anything involving keys/secrets/private data
+- “Ghost consulting” with no evidence
+
+---
+
+## Next steps
+1) Pick 1 critical module
+2) Set a PR review rhythm
+3) Run 30 days and measure outcomes

@@ -1,5 +1,5 @@
 ﻿title: Bags Shield Security
-description: Pesquisa de segurança baseada em evidências, endurecimento e revisão de PRs (PT/EN)
+description: Evidence-driven security research, hardening, and PR reviews (EN/PT)
 theme: jekyll-theme-cayman
-lang: pt-BR
-locale: pt_BR
+lang: en-US
+locale: en_US

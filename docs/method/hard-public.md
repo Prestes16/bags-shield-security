@@ -1,30 +1,30 @@
-﻿# Método público — HARD / anti-fantasia
+﻿# Public method — HARD (anti-fantasy)
 
-Nosso padrão: **ética + evidência + produção**.
-
----
-
-## Princípios
-1) Escopo e regras primeiro  
-2) Evidência > pressa  
-3) Nada inventado (código real, ambiente controlado)  
-4) Clareza brutal (reprodução simples)  
-5) Mitigação junto (correção + regressão)  
-6) Nada fora de escopo, nada em produção
+Our standard: **ethics + evidence + real delivery**.
 
 ---
 
-## Fluxo
-- Escolhe alvo + domínio (auth/webhooks/multi-tenant/accounting)
-- Define invariante (o que “sempre deveria ser verdade”)
-- Busca quebra no código real
-- Valida em laboratório
-- Reporta com impacto realista + mitigação
+## Principles
+1) Scope & rules first  
+2) Evidence > speed  
+3) Nothing invented (real code, controlled environment)  
+4) Brutal clarity (simple reproduction)  
+5) Mitigation included (fix + regression)  
+6) Nothing out of scope, nothing in production
 
 ---
 
-## Medimos qualidade por
-- reprodutibilidade
-- precisão (sem exagero)
-- ética/escopo
-- utilidade (mitigação e testes)
+## Workflow
+- Pick a target + a domain (auth/webhooks/multi-tenant/accounting)
+- Define an invariant (what should always be true)
+- Find a break in real code
+- Validate in a lab
+- Report with realistic impact + mitigation
+
+---
+
+## We measure quality by
+- reproducibility
+- precision (no hype)
+- ethics/scope adherence
+- usefulness (mitigation + tests)

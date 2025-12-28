@@ -1,44 +1,44 @@
-﻿# Casebook — SNS Records / ROA (pago)
+﻿# Casebook — SNS Records / ROA (paid)
 
-**Status:** **Pago**  
-**Recompensa:** 1500 USDC (Solana)  
-**Severidade final:** muito baixa/baixa (reclassificada no processo)  
-**ID do report:** (preencher)  
-**Data:** (preencher)
-
----
-
-## Resumo executivo
-Caso documentando um achado confirmado e pago relacionado a inconsistências de representação/normalização no fluxo de validação de ROA.
-
-**Postura:** sem claims exagerados — apenas o que foi evidenciado e aceito.
+**Status:** **Paid**  
+**Reward:** 1500 USDC (Solana)  
+**Final severity:** very low/low (reclassified during triage)  
+**Report ID:** (fill)  
+**Date:** (fill)
 
 ---
 
-## Contexto (curto)
-- Registros/validações com formatos e tamanhos esperados
-- Pontos sensíveis em normalização e checks de consistência
+## Executive summary
+A confirmed, paid case documenting an issue related to representation/normalization inconsistencies in the ROA validation flow.
+
+**Positioning:** no exaggerated claims — only what was evidenced and accepted.
 
 ---
 
-## Evidência (o que foi observado)
-- (preencher com resumo do comportamento observado)
-- (anexar prints/logs redigidos em /docs/assets)
+## Context (short)
+- Validation paths with expected formats/sizes
+- Sensitive points around normalization and consistency checks
 
 ---
 
-## Impacto (realista)
-- (preencher: falha de verificação / comportamento inesperado / desvio de contrato de dados)
+## Evidence (what was observed)
+- (fill with the observed behavior)
+- (attach redacted screenshots/logs under /docs/assets)
 
 ---
 
-## Mitigação sugerida
-- Normalizar formato/tamanho antes de validar
-- Unificar contrato de tamanhos entre funções correlatas
-- Adicionar testes de regressão (entradas limite)
+## Impact (realistic)
+- (fill: verification failure / unexpected behavior / data-contract deviation)
 
 ---
 
-## Apêndice
-- Links/commits: (preencher)
-- Evidências: (preencher)
+## Suggested mitigation
+- Normalize format/size before validation
+- Unify size contracts across related functions
+- Add regression tests (edge-case inputs)
+
+---
+
+## Appendix
+- Links/commits: (fill)
+- Evidence: (fill)

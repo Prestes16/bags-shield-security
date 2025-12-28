@@ -1,26 +1,26 @@
-﻿# Divulgação responsável & limites
+﻿# Responsible disclosure & limits
 
-Bags Shield Security segue práticas responsáveis e éticas.
-
----
-
-## Regras de ouro
-- **Escopo e permissão primeiro**
-- **Sem exploração em produção**
-- **Sem acesso indevido a dados**
-- **Sem retenção de credenciais**
-- **Sem publicar detalhes** que facilitem abuso
+Bags Shield Security follows responsible, ethical practices.
 
 ---
 
-## O que publicamos na vitrine
-- Resumos estilo consultoria: contexto, evidência, impacto realista e mitigação
-- Prints e logs **redigidos** (com dados sensíveis borrados)
-- Status sempre explícito: **Pago / Confirmado / Em validação / Nota de investigação**
+## Golden rules
+- **Scope and permission first**
+- **No production exploitation**
+- **No unauthorized data access**
+- **No credential retention**
+- **No publishing details** that enable abuse
 
 ---
 
-## Como reportamos
-- Relatório curto, humano e reproduzível
-- Evidências claras (sem exagero)
-- Mitigação sugerida + testes de regressão quando possível
+## What we publish in this portfolio
+- Consulting-style summaries: context, evidence, realistic impact, mitigation
+- Redacted screenshots/logs (sensitive data removed)
+- Clear status labels: **Paid / Confirmed / In validation / Investigation note**
+
+---
+
+## How we report
+- Short, human, reproducible reports
+- Clear evidence (no exaggeration)
+- Mitigation suggestions + regression tests when possible

@@ -1,24 +1,24 @@
-﻿# Portfólio — Bags Shield (engenharia segura aplicada)
+﻿# Portfolio — Bags Shield (secure engineering in practice)
 
-Bags Shield é um projeto que prova nosso estilo: **segurança por padrão** e **confiabilidade**.
-
----
-
-## O que já existe (evidência técnica)
-- Contrato v0 com schemas strict (dditionalProperties:false)
-- Dev-server com validação (AJV) e rotina de testes
-- Headers padrão: X-Request-Id + Cache-Control: no-store + CORS consistente
-- Smokes automatizados para regressão
+Bags Shield shows our style: **secure-by-default** + **reliability**.
 
 ---
 
-## Por que isso importa
-Times pequenos quebram por detalhes: cache, CORS, validação, webhooks, secrets.  
-Aqui a gente demonstra prática real: **hardening + processo**.
+## What exists (technical evidence)
+- v0 contract with strict schemas (dditionalProperties:false)
+- Dev server validation (AJV) + test routines
+- Standard headers: X-Request-Id + Cache-Control: no-store + consistent CORS
+- Automated smokes to prevent regressions
 
 ---
 
-## Direção (o que evolui)
-- Endpoints proxy e integrações (com retries/timeout/rate-limit)
-- Observabilidade (requestId, timing, status)
-- Release safety (checks e regressão)
+## Why this matters
+Small teams break on details: caching, CORS, validation, webhooks, secrets.  
+Here we demonstrate real execution: **hardening + process**.
+
+---
+
+## Direction (what we’re building next)
+- Proxy endpoints and integrations (retry/timeout/rate-limit)
+- Observability (requestId, timings, status)
+- Release safety (checks + regression)
