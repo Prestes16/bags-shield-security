@@ -1,15 +1,13 @@
-﻿---
-lang: pt-BR
----
-
-# Bags Shield Security
+﻿# Bags Shield Security
 
 **Pesquisa de segurança + endurecimento com evidência.**  
 Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e segurança de lançamento.
 
+**Idioma:** [Português](./) • [English](../)
+
 ---
 
-## O que você encontra aqui (vitrine)
+## O que você encontra aqui
 - ✅ **Casebook (pago):** SNS Records / ROA  
 - ✅ **Portfólio de engenharia:** Bags Shield (segurança aplicada no código e no processo)  
 - ✅ **Método público:** HARD / anti-fantasia (ética + reprodutibilidade)
@@ -18,7 +16,7 @@ Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e s
 - Casebook: [SNS Records / ROA (pago)](./casebooks/sns-roa-paid.md)
 - Portfólio: [Bags Shield (engenharia segura)](./portfolio/bags-shield.md)
 - Método: [HARD / anti-fantasia (público)](./method/hard-public.md)
-- Serviços: [Plano mensal (trampo fixo)](./services.md)
+- Serviços: [Plano mensal](./services.md)
 - Divulgação: [Divulgação responsável & limites](./disclosure.md)
 
 ---
@@ -37,15 +35,12 @@ Tudo aqui é **evidência**, **clareza** e **mitigação**.
 
 ---
 
-## Contato (preencha depois)
-- X: @SEU_USER
-- Discord: SEU_USER
-- Email: SEU_EMAIL
+## Contato
+- X: @Cleiton16144221
+- Discord: @cleiton8509p
+- Email: Cleitonprestes54@gmail.com
 
 ---
 
 ## Equipe
 **Bags Shield Security — Cleiton + Luna**
-
-
-

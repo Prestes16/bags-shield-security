@@ -5,24 +5,54 @@
 <script>
 (function () {
   const BRAND = "Bags Shield Security";
+  const isPT = /\/pt(\/|$)/.test(location.pathname);
 
   function forceBrand() {
     const el = document.querySelector('.project-name');
     if (!el) return;
     el.setAttribute('translate', 'no');
     el.classList.add('notranslate');
-    if ((el.textContent || '').trim() !== BRAND) {
-      el.textContent = BRAND;
+    if ((el.textContent || '').trim() !== BRAND) el.textContent = BRAND;
+  }
+
+  function patchThemeText() {
+    // Set <html lang="..."> so the browser stops "guessing" wrong
+    document.documentElement.lang = isPT ? 'pt-BR' : 'en';
+
+    if (!isPT) return;
+
+    const tagline = document.querySelector('.project-tagline');
+    if (tagline) {
+      tagline.textContent = "Pesquisa de segurança baseada em evidências, hardening e revisão de PRs (EN/PT)";
+    }
+
+    const btn = document.querySelector('a.btn');
+    if (btn) {
+      btn.textContent = "Ver no GitHub";
+    }
+
+    const owner = document.querySelector('.site-footer-owner');
+    if (owner) {
+      owner.innerHTML = 'O serviço <a href="https://github.com/Prestes16/bags-shield-security">bags-shield-security</a> é mantido pela <a href="https://github.com/Prestes16">Prestes16</a>.';
+    }
+
+    const credits = document.querySelector('.site-footer-credits');
+    if (credits) {
+      credits.textContent = "Esta página foi gerada pelo GitHub Pages.";
     }
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     forceBrand();
+    patchThemeText();
 
     const target = document.querySelector('header') || document.body;
     if (!target) return;
 
-    const obs = new MutationObserver(function () { forceBrand(); });
+    const obs = new MutationObserver(function () {
+      forceBrand();
+      patchThemeText();
+    });
     obs.observe(target, { childList: true, subtree: true, characterData: true });
   });
 })();

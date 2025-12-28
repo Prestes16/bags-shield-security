@@ -3,11 +3,11 @@
 **Evidence-driven security research + hardening.**  
 Focused on Web3/Solana, integrations, APIs, webhooks, auth, secrets, and release safety.
 
-**Language:** English • [Português](./pt/)
+**Language:** [English](./) • [Português](./pt/)
 
 ---
 
-## What you’ll find here
+## What you'll find here
 - ✅ **Paid casebook:** SNS Records / ROA  
 - ✅ **Engineering portfolio:** Bags Shield (security applied in real code + process)  
 - ✅ **Public method:** HARD / anti-fantasy (ethics + reproducibility)
@@ -35,10 +35,10 @@ Everything here is **evidence**, **clarity**, and **mitigation**.
 
 ---
 
-## Contact (fill later)
-- X: @YOUR_HANDLE
-- Discord: YOUR_HANDLE
-- Email: YOUR_EMAIL
+## Contact
+- X: @Cleiton16144221
+- Discord: @cleiton8509p
+- Email: Cleitonprestes54@gmail.com
 
 ---
 
