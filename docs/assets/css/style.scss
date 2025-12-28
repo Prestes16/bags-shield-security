@@ -1,0 +1,98 @@
+﻿---
+---
+
+@import "{{ site.theme }}";
+
+/* =========================
+   Bags Shield Security — Theme overrides
+   ========================= */
+
+:root{
+  --bss-bg: #040819;
+  --bss-card: #081325;
+  --bss-card2: #0b1930;
+  --bss-border: rgba(255,255,255,.10);
+  --bss-text: #f6f7ff;
+  --bss-text2:#c4d0ff;
+  --bss-accent:#2fa7ff;
+  --bss-accent2:#4dd4ff;
+  --bss-green:#26d38a;
+  --bss-yellow:#ffce4d;
+}
+
+html, body { background: var(--bss-bg); }
+body { color: var(--bss-text); }
+
+a{ color: var(--bss-accent2); }
+a:hover{ color: var(--bss-accent); }
+
+.page-header{
+  background:
+    radial-gradient(900px 420px at 20% 15%, rgba(47,167,255,.35), rgba(0,0,0,0)),
+    radial-gradient(700px 380px at 85% 30%, rgba(77,212,255,.18), rgba(0,0,0,0)),
+    linear-gradient(135deg, #06102a, #081a3a);
+  border-bottom: 1px solid var(--bss-border);
+}
+
+.project-name{
+  letter-spacing: .2px;
+  text-shadow: 0 6px 28px rgba(0,0,0,.35);
+}
+
+.project-tagline{
+  color: var(--bss-text2);
+  opacity: .95;
+}
+
+.main-content{
+  max-width: 980px;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3{
+  color: var(--bss-text);
+  letter-spacing: .2px;
+}
+
+.main-content hr{
+  border: 0;
+  border-top: 1px solid var(--bss-border);
+  opacity: 1;
+}
+
+.main-content code{
+  background: rgba(15,27,51,.85);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  padding: .1em .35em;
+  color: var(--bss-accent2);
+}
+
+.main-content pre{
+  background: rgba(15,27,51,.92);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.btn{
+  background: rgba(47,167,255,.14);
+  color: var(--bss-text);
+  border: 1px solid rgba(77,212,255,.35);
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+.btn:hover{
+  background: rgba(47,167,255,.22);
+  border-color: rgba(77,212,255,.55);
+}
+
+.site-footer{
+  border-top: 1px solid var(--bss-border);
+}
+.site-footer-credits{
+  color: rgba(196,208,255,.75);
+}
+
+/* Little “consultancy” touch: nicer lists */
+.main-content ul li { margin: .25rem 0; }
