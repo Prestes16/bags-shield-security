@@ -1,47 +1,40 @@
-﻿## About
-
-**Boutique security research + engineering hardening, backed by evidence.**  
+﻿**Boutique security research + engineering hardening, backed by evidence.**  
 Focused on Web3/Solana, integrations, APIs, webhooks, authentication, secrets, and release safety.
 
-> Want this in another language? Use your browser’s built-in translator.
+> Prefer another language? Use your browser’s built-in translator.
 
 ---
 
 ## What you’ll find here
-- ✅ **Case studies (sanitized):** security findings, outcomes, and mitigations — no exploit details
-- ✅ **Engineering portfolio:** secure-by-default work applied in real code and process
-- ✅ **Public method:** HARD / anti-fantasy — ethics, reproducibility, clarity
+- **Case studies (sanitized):** outcomes, risk reduction, and mitigations — no exploit steps
+- **Engineering portfolio:** secure-by-default work applied in real code and process
+- **Method (public):** HARD / anti-fantasy — ethics, reproducibility, clarity
 
-### Quick links
-- Research log: [Public research log (sanitized)](./portfolio/research-log.md)
-- Portfolio: [Engineering portfolio](./portfolio/index.md)
-- Case study: [SNS Records / ROA (public summary)](./casebooks/sns-roa-paid.md)
-- Services: [Security engagements](./services.md)
-- Disclosure: [Responsible disclosure & redaction policy](./disclosure.md)
+## Start here
+- [Start here — one-page overview](./start.md)
 
----
-
-## What we do
-- **Security PR reviews** with a release-readiness gate (checks + actionable feedback)
-- **Hardening** for endpoints, integrations, and webhooks (auth, secrets, abuse resistance)
-- **Threat modeling** per module (small, practical, shipped monthly)
-- **Smoke/regression checks** to prevent incidents and expensive breakage
+## Quick links
+- [Case studies (sanitized)](./casebooks/index.md)
+- [Research log (sanitized)](./portfolio/research-log.md)
+- [Engineering portfolio](./portfolio/index.md)
+- [Services](./services.md)
+- [Disclosure & redaction policy](./disclosure.md)
 
 ---
 
 ## How we work
-- Evidence first: **clear reproduction**, impact analysis, and mitigations
-- Minimal disruption: changes are **surgical**, testable, and review-friendly
-- No drama: scope-respecting, professional communication, predictable delivery
+- **Evidence first:** reproducible behavior, impact analysis, and mitigations
+- **Minimal disruption:** surgical changes, testable, review-friendly
+- **Scope-respecting:** no production exploitation, no sensitive detail publication
+- **Release-minded:** security tied to reliability, delivery, and operational safety
 
 ---
 
 ## Contact
-- X (Twitter): @Cleiton16144221
-- Discord: @cleiton8509p
-- Email: Cleitonprestes54@gmail.com
+- X (Twitter): @Cleiton16144221  
+- Discord: @cleiton8509p  
+- Email: Cleitonprestes54@gmail.com  
 
 ---
 
-## Team
 **Bags Shield Security — Cleiton + Luna**
