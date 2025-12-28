@@ -1,14 +1,1 @@
-﻿<!-- head-custom: brand lock + theme overrides -->
-<link rel="stylesheet" href="{{ '/assets/css/overrides.css' | relative_url }}">
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  // trava o nome da marca contra auto-translate
-  var name = document.querySelector('.project-name');
-  if (name) {
-    name.setAttribute('translate','no');
-    name.classList.add('notranslate');
-    name.textContent = 'Bags Shield Security';
-  }
-});
-</script>
+﻿<link rel="stylesheet" href="{{ '/assets/css/bss.css' | relative_url }}?v={{ site.github.build_revision }}">
