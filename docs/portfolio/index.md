@@ -1,12 +1,45 @@
-﻿# Engineering portfolio
+﻿# Portfolio
 
-This section highlights security engineering work shipped in real code and process.
+This section is a **public-safe** overview of applied security work:
+research, hardening, and release assurance.
 
-## Highlights
-- **Secure defaults:** strict input validation, predictable error envelopes, safe headers
-- **Release safety:** smoke/regression checks, request IDs, no-store, and consistency gates
-- **Integration hardening:** webhooks, auth, secret-handling, timeouts/retries, rate limiting
+Everything here is written to be:
+- **client-friendly** (clear outcomes)
+- **safe** (no weaponizable details)
+- **actionable** (mitigation-first)
 
-### Projects
-- [Bags Shield (secure engineering)](./bags-shield.md)
-- [Public research log (sanitized)](./research-log.md)
+---
+
+## Case studies
+
+- **SNS Records / ROA** — accepted & rewarded (sanitized)  
+  [Read the case study](../casebooks/sns-roa-paid.md)
+
+---
+
+## Engineering portfolio
+
+- **Bags Shield** — secure engineering patterns applied in real build work  
+  [Read: Bags Shield portfolio](./bags-shield.md)
+
+---
+
+## Research log (sanitized)
+
+A running, client-safe record of research tracks and outcomes.  
+[Open research log](./research-log.md)
+
+---
+
+## Method (public)
+
+How we work: evidence, scope discipline, reproducibility, and release safety.  
+[HARD method (public)](../method/hard-public.md)
+
+---
+
+## Engagements
+
+If you want help hardening an integration surface or setting a repeatable release gate:  
+[Security engagements](../services.md)
+
