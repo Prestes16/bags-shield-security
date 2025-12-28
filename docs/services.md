@@ -1,53 +1,33 @@
-﻿# Services — Monthly retainer
+﻿# Security engagements
 
-Simple goal: **get paid for output, not luck**.  
-Continuous security support for teams shipping fast.
+We help teams ship faster **without** turning security into chaos.
 
----
+## Typical engagements
+### 1) PR Review + Release Gate
+- Structured security review on PRs
+- Release checklist (auth, secrets, logs, integrations)
+- Actionable comments + risk register
 
-## Packages (template)
-### Bronze — 4h/month
-- PR reviews (actionable feedback)
-- Release checklist
-- Risk backlog (prioritized)
+### 2) Integration hardening
+- Webhooks, auth flows, API boundary hardening
+- Abuse resistance (rate limits, timeouts, idempotency, safe errors)
+- Regression tests and “breakage prevention” checks
 
-### Silver — 8h/month
-- Everything in Bronze +
-- 1 deep dive/month (critical module)
-- Mini report (1–2 pages)
+### 3) Monthly assurance (retainer)
+- Ongoing PR review cadence
+- One focused module review per month
+- Lightweight monthly memo: evidence → impact → mitigation
 
-### Gold — 16h/month
-- Everything in Silver +
-- Guided hardening (webhooks/auth/secrets)
-- Smoke/regression checks + basic metrics
+## Deliverables you can expect
+- A prioritized risk register (clear owner + next step)
+- Reproduction notes (lab-safe), impact framing, mitigations
+- Minimal, review-friendly patches (when applicable)
+- Regression checks to prevent reintroducing the same class of issue
 
----
+## Working principles
+- Scope-first and permission-first
+- No production exploitation
+- No publication of details that enable abuse
+- Evidence over hype
 
-## 30-day pilot (easiest way to start)
-- 2 PR review sessions/week
-- 1 deep dive (critical module)
-- release checklist + final backlog
-- short final report
-
----
-
-## How we work
-- Clear weekly scope (no chaos)
-- Async-first communication
-- Evidence → impact → mitigation
-- No secrets in logs, no sensitive data exposure
-
----
-
-## What we do NOT do
-- Anything out of scope
-- Anything in production
-- Anything involving keys/secrets/private data
-- “Ghost consulting” with no evidence
-
----
-
-## Next steps
-1) Pick 1 critical module
-2) Set a PR review rhythm
-3) Run 30 days and measure outcomes
+**Contact:** @Cleiton16144221 (X) • @cleiton8509p (Discord) • Cleitonprestes54@gmail.com

@@ -1,5 +1,6 @@
 ﻿## About
 
+**Boutique security research + engineering hardening, backed by evidence.**  
 Focused on Web3/Solana, integrations, APIs, webhooks, authentication, secrets, and release safety.
 
 > Want this in another language? Use your browser’s built-in translator.
@@ -7,30 +8,31 @@ Focused on Web3/Solana, integrations, APIs, webhooks, authentication, secrets, a
 ---
 
 ## What you’ll find here
-- ✅ **Paid casebook:** SNS Records / ROA
-- ✅ **Engineering portfolio:** Bags Shield (security applied in real code + process)
-- ✅ **Public method:** HARD / anti-fantasy (ethics + reproducibility)
+- ✅ **Case studies (sanitized):** security findings, outcomes, and mitigations — no exploit details
+- ✅ **Engineering portfolio:** secure-by-default work applied in real code and process
+- ✅ **Public method:** HARD / anti-fantasy — ethics, reproducibility, clarity
 
 ### Quick links
-- Casebook: [SNS Records / ROA (paid)](./casebooks/sns-roa-paid.md)
-- Portfolio: [Bags Shield (secure engineering)](./portfolio/bags-shield.md)
-- Method: [HARD (public)](./method/hard-public.md)
-- Services: [Monthly retainer](./services.md)
-- Disclosure: [Responsible disclosure & limits](./disclosure.md)
+- Research log: [Public research log (sanitized)](./portfolio/research-log.md)
+- Portfolio: [Engineering portfolio](./portfolio/index.md)
+- Case study: [SNS Records / ROA (public summary)](./casebooks/sns-roa-paid.md)
+- Services: [Security engagements](./services.md)
+- Disclosure: [Responsible disclosure & redaction policy](./disclosure.md)
 
 ---
 
-## What we do (straight to the point)
-- **PR reviews** with security + release checklists
-- **Hardening** for endpoints, integrations, and webhooks
-- **Mini threat model** per module (monthly)
-- **Smoke/regression checks** to prevent incidents and breakage
+## What we do
+- **Security PR reviews** with a release-readiness gate (checks + actionable feedback)
+- **Hardening** for endpoints, integrations, and webhooks (auth, secrets, abuse resistance)
+- **Threat modeling** per module (small, practical, shipped monthly)
+- **Smoke/regression checks** to prevent incidents and expensive breakage
 
 ---
 
-## Ethics & professionalism
-We operate **within scope**, do not exploit production systems, and do not publish details that enable abuse.  
-Everything here is **evidence**, **clarity**, and **mitigation**.
+## How we work
+- Evidence first: **clear reproduction**, impact analysis, and mitigations
+- Minimal disruption: changes are **surgical**, testable, and review-friendly
+- No drama: scope-respecting, professional communication, predictable delivery
 
 ---
 

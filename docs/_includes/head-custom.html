@@ -1,23 +1,14 @@
-﻿<!-- custom head: keep brand name un-translated (do NOT disable translation for the whole page) -->
-<meta http-equiv="Content-Language" content="en">
-<meta name="language" content="en">
+﻿<!-- start custom head snippets -->
+<meta http-equiv="Content-Language" content="{{ page.lang | default: site.lang | default: 'en' }}">
+<meta name="language" content="{{ page.lang | default: site.lang | default: 'en' }}">
+
 <script>
-(function () {
-  function lock(el) {
-    if (!el) return;
+document.addEventListener('DOMContentLoaded', function () {
+  var el = document.querySelector('.project-name'); // Cayman theme title
+  if (el) {
     el.setAttribute('translate', 'no');
     el.classList.add('notranslate');
   }
-  function apply() {
-    lock(document.querySelector('.project-name'));    // Cayman hero title
-    lock(document.querySelector('.main-content h1')); // H1 in page content
-  }
-  apply();
-  var obs = new MutationObserver(apply);
-  obs.observe(document.documentElement, { childList: true, subtree: true });
-  window.addEventListener('load', function () {
-    apply();
-    setTimeout(function(){ obs.disconnect(); }, 3000);
-  });
-})();
+});
 </script>
+<!-- end custom head snippets -->
