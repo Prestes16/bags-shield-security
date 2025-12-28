@@ -1,38 +1,14 @@
-﻿<!-- start custom head snippets -->
-<meta http-equiv="Content-Language" content="{{ site.lang | default: 'en' }}">
-<meta name="language" content="{{ site.lang | default: 'en' }}">
+﻿<!-- head-custom: brand lock + theme overrides -->
+<link rel="stylesheet" href="{{ '/assets/css/overrides.css' | relative_url }}">
 
 <script>
-(function () {
-  function lockBrand() {
-    var el = document.querySelector('.project-name');
-    if (!el) return;
-
-    // Mark as notranslate (best effort for browser translators)
-    el.setAttribute('translate', 'no');
-    el.classList.add('notranslate');
-
-    // Force the brand text to be exactly the brand name
-    var brand = 'Bags Shield Security';
-    if (el.textContent.trim() !== brand) {
-      el.textContent = '';
-      var s = document.createElement('span');
-      s.setAttribute('translate', 'no');
-      s.className = 'notranslate';
-      s.textContent = brand;
-      el.appendChild(s);
-    }
+document.addEventListener('DOMContentLoaded', function () {
+  // trava o nome da marca contra auto-translate
+  var name = document.querySelector('.project-name');
+  if (name) {
+    name.setAttribute('translate','no');
+    name.classList.add('notranslate');
+    name.textContent = 'Bags Shield Security';
   }
-
-  // Run ASAP + after load (covers both fast/slow loads)
-  lockBrand();
-  document.addEventListener('DOMContentLoaded', lockBrand);
-  window.addEventListener('load', lockBrand);
-})();
+});
 </script>
-
-<style>
-/* Keep Cayman styling while preventing translation quirks */
-.project-name .notranslate { color: inherit; }
-</style>
-<!-- end custom head snippets -->
