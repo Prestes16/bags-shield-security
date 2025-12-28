@@ -1,7 +1,5 @@
-﻿---
----
+/*! BSS_BUILD: 2025-12-28_D (static override; no front matter; no BOM) */
 
-/*! BSS_BUILD: 2025-12-28_C */
 :root{
   --bss-bg0:#040819;
   --bss-bg1:#07132a;
@@ -24,7 +22,9 @@ body{
     linear-gradient(180deg, var(--bss-bg1), var(--bss-bg0))!important;
 }
 
-/* Header mais “executivo”, menos espaço vazio */
+a{color:var(--bss-accent2)!important;text-decoration:none;}
+a:hover{color:var(--bss-accent)!important;text-decoration:underline;}
+
 .page-header{
   position:relative;
   padding:2.2rem 0 1.8rem!important;
@@ -53,9 +53,6 @@ body{
 
 .project-name{letter-spacing:.35px;}
 .project-tagline{color:rgba(246,247,255,.78)!important;max-width:52rem;margin-left:auto;margin-right:auto;}
-
-a{color:var(--bss-accent2)!important;text-decoration:none;}
-a:hover{color:var(--bss-accent)!important;text-decoration:underline;}
 
 .btn{
   background:rgba(255,255,255,.06)!important;
