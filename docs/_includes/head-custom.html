@@ -1,13 +1,42 @@
 ﻿<!-- start custom head snippets -->
-<meta http-equiv="Content-Language" content="{{ page.lang | default: site.lang | default: 'en' }}">
-<meta name="language" content="{{ page.lang | default: site.lang | default: 'en' }}">
+<meta http-equiv="Content-Language" content="en">
+<meta name="language" content="en">
+<meta name="theme-color" content="#0b1220">
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var el = document.querySelector('.project-name'); // Cayman theme title
-  if (el) {
-    el.setAttribute('translate', 'no');
+  function lock(el){
+    if(!el) return;
+    el.setAttribute('translate','no');
     el.classList.add('notranslate');
+  }
+
+  // Lock Cayman title
+  lock(document.querySelector('.project-name'));
+
+  // Lock any visible "Bags Shield Security" occurrences in content
+  document.querySelectorAll('h1,h2,h3,p,li,strong,a,span,div').forEach(function(el){
+    try{
+      if(el.childElementCount===0 && el.textContent && el.textContent.indexOf('Bags Shield Security') !== -1){
+        lock(el);
+      }
+    }catch(e){}
+  });
+
+  // Replace Cayman default button label + add "Start here"
+  var header = document.querySelector('.page-header');
+  if (!header) return;
+
+  var btn = header.querySelector('a.btn');
+  if (btn) btn.textContent = 'Repository';
+
+  if (!document.getElementById('bss-start-btn')) {
+    var startBtn = document.createElement('a');
+    startBtn.id = 'bss-start-btn';
+    startBtn.className = 'btn';
+    startBtn.href = '{{ site.baseurl }}/start/';
+    startBtn.textContent = 'Start here';
+    header.appendChild(startBtn);
   }
 });
 </script>

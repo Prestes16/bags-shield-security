@@ -1,4 +1,9 @@
-﻿# Start here
+﻿---
+title: Start here
+permalink: /start/
+---
+
+# Start here
 
 Bags Shield Security is a small, senior-style security practice focused on **release safety** and **integration hardening**.
 
@@ -38,3 +43,4 @@ We help teams shipping on Web3/Solana reduce risk in:
 - X (Twitter): @Cleiton16144221  
 - Discord: @cleiton8509p  
 - Email: Cleitonprestes54@gmail.com
+
