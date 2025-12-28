@@ -1,4 +1,8 @@
-﻿# Divulgação responsável & limites
+﻿---
+lang: pt-BR
+---
+
+# Divulgação responsável & limites
 
 Bags Shield Security segue práticas responsáveis e éticas.
 
@@ -24,3 +28,4 @@ Bags Shield Security segue práticas responsáveis e éticas.
 - Relatório curto, humano e reproduzível
 - Evidências claras (sem exagero)
 - Mitigação sugerida + testes de regressão quando possível
+

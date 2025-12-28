@@ -1,4 +1,8 @@
-﻿# Bags Shield Security
+﻿---
+lang: pt-BR
+---
+
+# Bags Shield Security
 
 **Pesquisa de segurança + endurecimento com evidência.**  
 Foco em Web3/Solana, integrações, APIs, webhooks, autenticação, segredos e segurança de lançamento.
@@ -42,5 +46,6 @@ Tudo aqui é **evidência**, **clareza** e **mitigação**.
 
 ## Equipe
 **Bags Shield Security — Cleiton + Luna**
+
 
 

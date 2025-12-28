@@ -1,4 +1,8 @@
-﻿# Casebook — SNS Records / ROA (pago)
+﻿---
+lang: pt-BR
+---
+
+# Casebook — SNS Records / ROA (pago)
 
 **Status:** **Pago**  
 **Recompensa:** 1500 USDC (Solana)  
@@ -42,3 +46,4 @@ Caso documentando um achado confirmado e pago relacionado a inconsistências de 
 ## Apêndice
 - Links/commits: (preencher)
 - Evidências: (preencher)
+

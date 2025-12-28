@@ -1,4 +1,8 @@
-﻿# Método público — HARD / anti-fantasia
+﻿---
+lang: pt-BR
+---
+
+# Método público — HARD / anti-fantasia
 
 Nosso padrão: **ética + evidência + produção**.
 
@@ -28,3 +32,4 @@ Nosso padrão: **ética + evidência + produção**.
 - precisão (sem exagero)
 - ética/escopo
 - utilidade (mitigação e testes)
+

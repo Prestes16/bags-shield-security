@@ -1,4 +1,8 @@
-﻿# Portfólio — Bags Shield (engenharia segura aplicada)
+﻿---
+lang: pt-BR
+---
+
+# Portfólio — Bags Shield (engenharia segura aplicada)
 
 Bags Shield é um projeto que prova nosso estilo: **segurança por padrão** e **confiabilidade**.
 
@@ -22,3 +26,4 @@ Aqui a gente demonstra prática real: **hardening + processo**.
 - Endpoints proxy e integrações (com retries/timeout/rate-limit)
 - Observabilidade (requestId, timing, status)
 - Release safety (checks e regressão)
+

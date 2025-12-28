@@ -1,4 +1,8 @@
-﻿# Serviços — Plano mensal (trampo fixo)
+﻿---
+lang: pt-BR
+---
+
+# Serviços — Plano mensal (trampo fixo)
 
 A proposta aqui é simples: **ganhar por produção, não por sorte**.  
 Segurança contínua pra times pequenos que fazem deploy rápido.
@@ -51,3 +55,4 @@ Segurança contínua pra times pequenos que fazem deploy rápido.
 1) Escolher 1 módulo crítico
 2) Definir rotina de revisão de PRs
 3) Rodar 30 dias e medir resultado
+
