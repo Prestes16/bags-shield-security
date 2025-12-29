@@ -98,14 +98,11 @@ title: Bags Shield Security
     <div class="bss-avatar" aria-hidden="true">L</div>
     <div class="bss-person-meta">
       <div class="bss-person-name">Luna</div>
-      <div class="bss-person-role">AI Copilot / Analysis & Documentation</div>
+      <div class="bss-person-role">Research Ops / Analysis & Documentation</div>
       <div class="bss-person-note">Evidence-led analysis, triage support, structured docs, and repeatable hardening playbooks.</div>
     </div>
   </div>
 </div>
-
-<p class="bss-muted"><strong>Transparency note:</strong> Luna is an AI copilot embedded in the workflow.</p>
-
 ## Specialist network (on-demand)
 
 <div class="bss-grid">

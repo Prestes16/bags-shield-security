@@ -1,4 +1,4 @@
-﻿# Responsible disclosure & redaction policy
+# Responsible disclosure & redaction policy
 
 Bags Shield Security follows responsible, scope-respecting practices.
 
@@ -25,3 +25,8 @@ We remove or generalize:
 - Short, human-readable, reproducible (lab-safe)
 - Evidence → impact → mitigation
 - Regression tests when possible
+
+## Tooling & automation
+
+We use automation tooling (including AI-assisted drafting) to accelerate analysis and documentation.
+All deliverables are reviewed by the lead, and we do not disclose client secrets or sensitive implementation details.
