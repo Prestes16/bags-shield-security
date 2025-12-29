@@ -346,7 +346,7 @@ pre{
 }
 
 /* =========================================================
-   Leadership avatars ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ STRONG visibility & presence (v2)
+   Leadership avatars ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ STRONG visibility & presence (v2)
    ========================================================= */
 
 .bss-team .bss-avatar{
@@ -381,7 +381,7 @@ pre{
   box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
 }
 
-/* deixa o card um tiquinho mais legÃƒÆ’Ã‚Â­vel */
+/* deixa o card um tiquinho mais legÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­vel */
 .bss-team .bss-person{
   background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
   border: 1px solid rgba(255,255,255,0.10);
@@ -395,7 +395,7 @@ pre{
    AVATAR HEADSHOT ELITE v2 (zoom + focus + clarity)
    ========================================================= */
 
-/* Base: deixa as fotos mais "headshot", com presenÃƒÂ§a */
+/* Base: deixa as fotos mais "headshot", com presenÃƒÆ’Ã‚Â§a */
 .bss-team .bss-avatar{
   width: 104px;
   height: 104px;
@@ -406,7 +406,7 @@ pre{
     0 0 0 6px rgba(47,167,255,0.10);
 }
 
-/* imagem: mais nÃƒÂ­tida e com leve zoom (sem ficar artificial) */
+/* imagem: mais nÃƒÆ’Ã‚Â­tida e com leve zoom (sem ficar artificial) */
 .bss-team .bss-avatar img{
   transform: scale(1.12);
   transform-origin: 50% 35%;
@@ -423,7 +423,7 @@ pre{
   object-position: 50% 18%;
 }
 
-/* Hover sutil (premium, nÃƒÂ£o carnavalesco) */
+/* Hover sutil (premium, nÃƒÆ’Ã‚Â£o carnavalesco) */
 @media (hover:hover){
   .bss-team .bss-person:hover .bss-avatar{
     box-shadow:
@@ -441,7 +441,7 @@ pre{
    AVATAR HEADSHOT ELITE v3 (anti-blur + better face focus)
    ========================================================= */
 
-/* mantÃ©m presenÃ§a, mas sem exagero */
+/* mantÃƒÂ©m presenÃƒÂ§a, mas sem exagero */
 .bss-team .bss-avatar{
   width: 104px;
   height: 104px;
@@ -459,7 +459,7 @@ pre{
   object-fit: cover;
   border-radius: 50%;
 
-  /* zoom bem leve sÃ³ pra evitar borda vazia e NÃƒO borrar */
+  /* zoom bem leve sÃƒÂ³ pra evitar borda vazia e NÃƒÆ’O borrar */
   transform: scale(1.03) translateZ(0);
   backface-visibility: hidden;
 
@@ -467,12 +467,12 @@ pre{
   filter: contrast(1.04) saturate(1.03) brightness(1.02);
 }
 
-/* sua foto: mantÃ©m praticamente como estÃ¡ */
+/* sua foto: mantÃƒÂ©m praticamente como estÃƒÂ¡ */
 .bss-team .bss-avatar img[src$="cleiton.webp"]{
   object-position: 50% 20%;
 }
 
-/* luna: sobe o rosto (mais visÃ­vel) */
+/* luna: sobe o rosto (mais visÃƒÂ­vel) */
 .bss-team .bss-avatar img[src$="luna.webp"]{
   object-position: 50% 8%;
 }
@@ -494,7 +494,7 @@ pre{
    AVATAR HEADSHOT ELITE v4 (de-wash / less halo / sharper)
    ========================================================= */
 
-/* Aro menos “neon branco” e mais premium */
+/* Aro menos â€œneon brancoâ€ e mais premium */
 .bss-team .bss-avatar{
   padding: 3px;
   box-shadow:
@@ -504,19 +504,19 @@ pre{
     0 0 0 8px rgba(47,167,255,0.10);
 }
 
-/* Global: neutro (sem “clarear”) */
+/* Global: neutro (sem â€œclarearâ€) */
 .bss-team .bss-avatar img{
   transform: scale(1.03) translateZ(0);
   filter: contrast(1.05) saturate(1.03) brightness(0.98);
 }
 
-/* Luna: corrige o “esbranquiçado” e traz o rosto */
+/* Luna: corrige o â€œesbranquiÃ§adoâ€ e traz o rosto */
 .bss-team .bss-avatar img[src$="luna.webp"]{
   object-position: 50% 8%;
   filter: contrast(1.10) saturate(1.06) brightness(0.92);
 }
 
-/* Cleiton: mantém como está (só levemente neutro) */
+/* Cleiton: mantÃ©m como estÃ¡ (sÃ³ levemente neutro) */
 .bss-team .bss-avatar img[src$="cleiton.webp"]{
   object-position: 50% 20%;
   filter: contrast(1.06) saturate(1.03) brightness(0.98);
