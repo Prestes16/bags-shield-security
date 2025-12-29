@@ -68,7 +68,7 @@ title: Bags Shield Security
 ## Leadership
 <div class="bss-team">
   <div class="bss-person">
-    <div class="bss-avatar" aria-hidden="true">CP</div>
+    <div class="bss-avatar"><img src="./assets/img/team/cleiton.jpg" alt="Cleiton Prestes" loading="lazy" /></div>
     <div class="bss-person-meta">
       <div class="bss-person-name">Cleiton Prestes</div>
       <div class="bss-person-role">Founder / Security Research & Engineering</div>
@@ -77,7 +77,7 @@ title: Bags Shield Security
   </div>
 
   <div class="bss-person">
-    <div class="bss-avatar" aria-hidden="true">L</div>
+    <div class="bss-avatar"><img src="./assets/img/team/luna.jpg" alt="Luna" loading="lazy" /></div>
     <div class="bss-person-meta">
       <div class="bss-person-name">Luna</div>
       <div class="bss-person-role">Research Ops / Analysis & Documentation</div>
