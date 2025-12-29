@@ -4,9 +4,9 @@ title: Services
 
 # Services
 
-We provide boutique security research and engineering hardening for Web3 systems — evidence-led, release-aware, and client-safe.
+Boutique security research and engineering hardening for Web3/Solana systems — evidence-led, release-aware, and client-safe.
 
-Focus areas: Solana/Web3 integrations, APIs, webhooks, authentication, secrets handling, and release safety.
+Focus areas: Solana/Web3 integrations, APIs, webhooks, authentication, secrets handling, abuse resistance, and release safety.
 
 ---
 
@@ -24,25 +24,37 @@ For urgent merges, hotfixes, and release windows.
 
 ---
 
-### 2) Hardening Sprint (10 business days)
-A focused push to reduce the highest-risk failure modes.
+### 2) Launch Readiness Pack (5 business days)
+A focused hardening push before a release or public launch.
 
 **Best for**
+- Webhook verification + replay resistance + idempotency
 - Auth boundaries and permission surfaces
-- Webhook verification + replay resistance
 - Secrets exposure paths + logging hygiene
-- Abuse resistance (rate limits, timeouts, safe defaults)
+- Rate limits, timeouts, safe defaults
+
+**Deliverables**
+- Hardening PRs (small, clean diffs)
+- Smoke/regression checks (prevent expensive breakage)
+- Release gate checklist + verification notes
+
+**Starting fee (USD):** 3,000–8,000
+
+---
+
+### 3) Hardening Sprint (10 business days)
+A deeper reduction of high-risk failure modes across modules.
 
 **Deliverables**
 - Practical module notes (risk-first)
-- Hardening PRs (small, clean diffs)
-- Smoke/regression checks to prevent expensive breakage
+- Hardening PRs (PR-sized, review-friendly)
+- Regression expansion where it matters (release safety)
 
 **Starting fee (USD):** 6,000–15,000
 
 ---
 
-### 3) Monthly Retainer (30 days)
+### 4) Monthly Retainer (30 days)
 Ongoing review gate + hardening throughput.
 
 **Includes**
@@ -54,7 +66,7 @@ Ongoing review gate + hardening throughput.
 
 ---
 
-### 4) Quarterly Retainer (90 days)
+### 5) Quarterly Retainer (90 days)
 For teams that want a visible, consistent security program.
 
 **Includes**
@@ -66,30 +78,46 @@ For teams that want a visible, consistent security program.
 
 ---
 
+### 6) Security Program Build (6 months)
+For teams building long-term assurance and shipping discipline.
+
+**Includes**
+- Risk-first roadmap and tracking
+- Release gates + smoke/regression maturity
+- Ongoing hardening across auth/webhooks/secrets/abuse surfaces
+
+**Starting fee (USD):** quoted per scope (typically 60,000–150,000)
+
+---
+
+## How pricing works (scope-led, no surprises)
+We price based on scope and risk surface. Key drivers:
+- Number of endpoints and privileged flows (auth, funds, admin)
+- Webhook complexity (signing, replay, idempotency, retries)
+- Secrets and logging exposure paths
+- Abuse resistance needs (rate limits, quotas, timeouts)
+- Release window pressure (what must be safe by what date)
+- Web3/Solana integration boundaries (signing, custody, fees)
+
+**To scope quickly, send**
+- repo/docs link (or a minimal private snippet set)
+- target deadline / release window
+- top 3 concerns (webhooks, auth, secrets, abuse, etc.)
+- a short map of endpoints / modules
+
+We reply with a scoped plan (what we will and won’t do) and a fixed quote or retainer option.
+
+---
+
 ## Smart contract support (public-safe)
 We support contract engagements via invariant analysis, testing strategy, and remediation tracking. Full reviews vary by scope and complexity; we quote after short scoping.
 
 ---
 
 ## Payment & logistics
-
 - **Pricing:** USD (payment accepted in **USDC/USDT**)
 - **Structure:** milestone-based or monthly
 - **Scope discipline:** strictly within agreed scope and policy boundaries
 - **No production targeting:** no exploitation attempts against live systems
 - **Redaction:** sensitive details are removed from public writeups
-
----
-
-## How to start
-
-Send:
-- repo / docs link (or a minimal private snippet set)
-- target deadline / release window
-- top 3 concerns (ex.: webhooks, auth, secrets)
-
-We reply with:
-- scoped plan (what we will and won’t do)
-- timeline
-- fixed quote or retainer option
 
