@@ -7,7 +7,14 @@ permalink: /services/
 
 Boutique security research and engineering hardening for Web3/Solana systems — evidence-led, release-aware, and client-safe.
 
-Focus areas: Solana/Web3 integrations, APIs, webhooks, authentication, secrets handling, abuse resistance, and release safety.
+We focus on: Solana/Web3 integrations, APIs, webhooks, authentication & permissions, secrets handling, abuse resistance, logging hygiene, and release safety.
+
+## What you get (in plain terms)
+
+- Clear risk calls per change: **block / warn / ok**
+- Minimal, review-friendly patches (small diffs, easy to ship)
+- A release gate: what to validate before you cut the tag
+- Clean write-ups your team can reuse
 
 ---
 
@@ -17,108 +24,71 @@ Focus areas: Solana/Web3 integrations, APIs, webhooks, authentication, secrets h
 For urgent merges, hotfixes, and release windows.
 
 **Deliverables**
-- Review notes with clear risk calls (block / warn / ok)
-- Minimal patch suggestions (surgical, testable, review-friendly)
-- Release checklist (what to validate before shipping)
+- Review notes with clear risk calls (**block / warn / ok**)
+- Small patch suggestions (surgical, testable, PR-friendly)
+- Release checklist tailored to the change
 
 **Starting fee (USD):** 750–2,500
 
 ---
 
 ### 2) Launch Readiness Pack (5 business days)
-A focused hardening push before a release or public launch.
+A focused hardening sprint before a release or public launch.
 
-**Best for**
+**Typical scope**
 - Webhook verification + replay resistance + idempotency
-- Auth boundaries and permission surfaces
-- Secrets exposure paths + logging hygiene
-- Rate limits, timeouts, safe defaults
+- Auth boundaries, role checks, and permission surfaces
+- Secrets exposure paths + logging hygiene + CI gates
+- Rate limiting, timeouts, backoff, and safer defaults
 
 **Deliverables**
-- Hardening PRs (small, clean diffs)
-- Smoke/regression checks (prevent expensive breakage)
-- Release gate checklist + verification notes
+- Threat model memo (module-sized, practical)
+- Patch set + test notes (PR-sized, easy to review)
+- “Launch gate” checklist (ship / hold / follow-ups)
 
-**Starting fee (USD):** 3,000–8,000
-
----
-
-### 3) Hardening Sprint (10 business days)
-A deeper reduction of high-risk failure modes across modules.
-
-**Deliverables**
-- Practical module notes (risk-first)
-- Hardening PRs (PR-sized, review-friendly)
-- Regression expansion where it matters (release safety)
-
-**Starting fee (USD):** 6,000–15,000
+**Starting fee (USD):** 3,500–9,000
 
 ---
 
-### 4) Monthly Retainer (30 days)
-Ongoing review gate + hardening throughput.
+### 3) Engineering Hardening Retainer (monthly)
+For teams that ship continuously and want a standing safety net.
 
 **Includes**
-- Weekly cadence and predictable delivery
-- Release-readiness gate for major deploys
-- Continuous backlog reduction (PR-sized work)
+- Ongoing PR reviews + hardening tickets
+- Release gates for major deploys
+- Incident-response support (analysis + mitigation notes)
+- Documentation that stays current as you ship
 
-**Starting fee (USD):** 10,000–25,000
-
----
-
-### 5) Quarterly Retainer (90 days)
-For teams that want a visible, consistent security program.
-
-**Includes**
-- Monthly roadmap (risk-first, scoped)
-- Hardening + regression expansion
-- Executive summary per month (what improved, what remains)
-
-**Starting fee (USD):** 25,000–60,000
+**Starting fee (USD):** 2,500–12,000 / month
 
 ---
 
-### 6) Security Program Build (6 months)
-For teams building long-term assurance and shipping discipline.
+## Add-ons (optional)
 
-**Includes**
-- Risk-first roadmap and tracking
-- Release gates + smoke/regression maturity
-- Ongoing hardening across auth/webhooks/secrets/abuse surfaces
-
-**Starting fee (USD):** quoted per scope (typically 60,000–150,000)
+- **Architecture review (1–2 days):** auth + data flows + attack surface map  
+- **Webhook + signature pack:** verification, replay defense, idempotency recipes  
+- **CI safety gates:** policy checks, regression/smoke suite, release checklist  
 
 ---
 
-## How pricing works (scope-led, no surprises)
-We price based on scope and risk surface. Key drivers:
-- Number of endpoints and privileged flows (auth, funds, admin)
-- Webhook complexity (signing, replay, idempotency, retries)
-- Secrets and logging exposure paths
-- Abuse resistance needs (rate limits, quotas, timeouts)
-- Release window pressure (what must be safe by what date)
-- Web3/Solana integration boundaries (signing, custody, fees)
+## What we don’t do
 
-**To scope quickly, send**
-- repo/docs link (or a minimal private snippet set)
-- target deadline / release window
-- top 3 concerns (webhooks, auth, secrets, abuse, etc.)
-- a short map of endpoints / modules
-
-We reply with a scoped plan (what we will and won’t do) and a fixed quote or retainer option.
+- Exploit development, theft, or “drain” steps  
+- Fund recovery services  
+- Work that violates program policy or client safety constraints  
 
 ---
 
-## Smart contract support (public-safe)
-We support contract engagements via invariant analysis, testing strategy, and remediation tracking. Full reviews vary by scope and complexity; we quote after short scoping.
+## How we start (fast)
+
+1) You share: repo link / PRs / deployment notes + scope  
+2) We align on a target window and success criteria  
+3) We deliver: notes + patches + a clear ship/hold call  
 
 ---
 
-## Payment & logistics
-- **Pricing:** USD (payment accepted in **USDC/USDT**)
-- **Structure:** milestone-based or monthly
-- **Scope discipline:** strictly within agreed scope and policy boundaries
-- **No production targeting:** no exploitation attempts against live systems
-- **Redaction:** sensitive details are removed from public writeups
+## Contact
 
+- X: @Cleiton16144221  
+- Discord: cleiton8509p  
+- Email: Cleitonprestes54@gmail.com
