@@ -26,7 +26,7 @@ body{
     linear-gradient(180deg, var(--bss-bg1), var(--bss-bg0))!important;
 }
 
-/* Grid + “noise” ultra sutil (executivo, não gamer) */
+/* Grid + "noise" ultra sutil (executivo, nao gamer) */
 body:before{
   content:"";
   position:fixed; inset:0;
@@ -52,7 +52,7 @@ body:after{
 a{color:var(--bss-accent2)!important;text-decoration:none;}
 a:hover{color:var(--bss-accent)!important;text-decoration:underline;}
 
-/* Header Cayman, mais “executivo” e menos vazio */
+/* Header Cayman, mais "executivo" e menos vazio */
 .page-header{
   position:relative;
   padding:2.2rem 0 1.8rem!important;
@@ -85,7 +85,7 @@ a:hover{color:var(--bss-accent)!important;text-decoration:underline;}
 .project-name{letter-spacing:.35px;}
 .project-tagline{color:rgba(246,247,255,.78)!important;max-width:52rem;margin-left:auto;margin-right:auto;}
 
-/* Botões Cayman */
+/* Botoes Cayman */
 .btn{
   background:rgba(255,255,255,.06)!important;
   color:var(--bss-text)!important;
@@ -100,7 +100,7 @@ a:hover{color:var(--bss-accent)!important;text-decoration:underline;}
   transform:translateY(-1px);
 }
 
-/* Container principal como “executive card” */
+/* Container principal como "executive card" */
 .main-content{
   background:linear-gradient(180deg, rgba(8,19,37,.90), rgba(4,8,25,.86))!important;
   border:1px solid var(--bss-line);
@@ -230,3 +230,61 @@ pre{
   border:1px solid rgba(255,255,255,.10)!important;
   border-radius:14px!important;
 }
+
+ /* --- Hero polish (v1) --- */
+ .bss-hero{position:relative; padding:.75rem 0 1.4rem;}
+ .bss-hero:before{
+   content:"";
+   position:absolute;
+   left:-10px; right:-10px; top:-18px;
+   height:240px;
+   background:
+     radial-gradient(900px 260px at 18% 0%, rgba(47,167,255,.22), transparent 60%),
+     radial-gradient(800px 280px at 82% 8%, rgba(77,212,255,.16), transparent 62%);
+   pointer-events:none;
+   opacity:.95;
+ }
+ .bss-kicker{
+   display:inline-flex;
+   gap:.5rem;
+   align-items:center;
+   padding:.42rem .65rem;
+   border:1px solid var(--bss-line);
+   border-radius:999px;
+   background: rgba(255,255,255,.04);
+   font-size:.82rem;
+   color:rgba(196,208,255,.92);
+ }
+ .bss-title{margin:.3rem 0 .55rem; font-size:clamp(2.25rem, 3.2vw, 3.05rem); letter-spacing:-.03em;}
+ .bss-lead{max-width:52rem; font-size:1.06rem; line-height:1.5; color:var(--bss-soft);}
+ .bss-pills{gap:.6rem; margin:1.1rem 0 1.15rem;}
+ .bss-pill{transition: transform .12s ease, background .12s ease, border-color .12s ease;}
+ .bss-pill:hover{transform: translateY(-1px); text-decoration:none;}
+ .bss-pill.primary{
+   background: linear-gradient(135deg, rgba(47,167,255,.92), rgba(77,212,255,.76));
+   border:1px solid rgba(47,167,255,.42);
+   color:#07132a !important;
+   font-weight:800;
+ }
+ .bss-pill.primary:hover{filter:brightness(1.02);}
+
+ /* --- Leadership cards (v1) --- */
+ .bss-team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:12px 0 6px}
+ @media (max-width: 860px){.bss-team{grid-template-columns:1fr}}
+ .bss-person{display:flex;gap:14px;padding:14px;border:1px solid var(--bss-line);border-radius:18px;background:rgba(255,255,255,.04)}
+ .bss-avatar{
+   width:64px;height:64px;border-radius:18px;overflow:hidden;
+   display:flex;align-items:center;justify-content:center;
+   font-weight:900; letter-spacing:-.02em;
+   background:
+     radial-gradient(14px 14px at 30% 30%, rgba(255,255,255,.18), transparent 60%),
+     linear-gradient(135deg, rgba(47,167,255,.95), rgba(77,212,255,.75));
+   border:1px solid rgba(255,255,255,.15);
+   color:#06101f;
+ }
+ .bss-avatar img{width:100%;height:100%;object-fit:cover;display:block}
+ .bss-person-name{font-weight:900;font-size:18px;letter-spacing:-.2px}
+ .bss-person-role{color:rgba(246,247,255,.80);margin-top:2px}
+ .bss-person-note{color:rgba(246,247,255,.62);font-size:13px;margin-top:6px;line-height:1.35}
+ .bss-muted{color:rgba(246,247,255,.62);font-size:13px;margin:8px 0 0}
+ .bss-mini{padding:12px;border:1px solid rgba(255,255,255,.10);border-radius:16px;background:rgba(255,255,255,.03);color:rgba(246,247,255,.80)}

@@ -11,7 +11,7 @@ title: Bags Shield Security
   </p>
 
   <div class="bss-pills">
-    <a class="bss-pill" href="./start/">Start here</a>
+    <a class="bss-pill primary" href="./start/">Start here</a>
     <a class="bss-pill" href="./casebooks/">Case studies</a>
     <a class="bss-pill" href="./services/">Services</a>
     <a class="bss-pill" href="./standards/">Operating standards</a>
@@ -66,24 +66,6 @@ title: Bags Shield Security
 </ul>
 
 ## Leadership
-
-<style>
-.bss-team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:12px 0 6px}
-@media (max-width: 860px){.bss-team{grid-template-columns:1fr}}
-.bss-person{display:flex;gap:14px;padding:14px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background:rgba(255,255,255,.04)}
-.bss-avatar{width:64px;height:64px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-weight:800;
-  background: radial-gradient(14px 14px at 30% 30%, rgba(255,255,255,.18), transparent 60%),
-              linear-gradient(135deg, rgba(47,167,255,.95), rgba(77,212,255,.75));
-  border:1px solid rgba(255,255,255,.15); color:#06101f}
-.bss-person-name{font-weight:800;font-size:18px;letter-spacing:-.2px}
-.bss-person-role{color:rgba(255,255,255,.75);margin-top:2px}
-.bss-person-note{color:rgba(255,255,255,.60);font-size:13px;margin-top:6px;line-height:1.35}
-.bss-muted{color:rgba(255,255,255,.60);font-size:13px;margin:8px 0 0}
-.bss-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
-@media (max-width: 980px){.bss-grid{grid-template-columns:1fr}}
-.bss-mini{padding:12px;border:1px solid rgba(255,255,255,.10);border-radius:16px;background:rgba(255,255,255,.03);color:rgba(255,255,255,.78)}
-</style>
-
 <div class="bss-team">
   <div class="bss-person">
     <div class="bss-avatar" aria-hidden="true">CP</div>
