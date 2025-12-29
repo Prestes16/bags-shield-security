@@ -9,12 +9,11 @@ $Paths = @(
   "/standards/",
   "/casebooks/",
   "/assets/css/bss.css",
-  "/assets/img/team/cleiton.jpg",
-  "/assets/img/team/luna.jpg"
+  "/assets/img/team/cleiton.jpg",`n  "/assets/img/team/luna.jpg",`n  "/assets/img/team/cleiton.webp",`n  "/assets/img/team/luna.webp"
 )
 
 function Try-HeadThenGet([string]$url) {
-  # 1) HEAD (rápido), mas GH Pages às vezes não curte HEAD em assets
+  # 1) HEAD (rÃ¡pido), mas GH Pages Ã s vezes nÃ£o curte HEAD em assets
   try {
     $h = Invoke-WebRequest -Uri $url -Method Head -UseBasicParsing
     return [pscustomobject]@{ Url=$url; Method="HEAD"; Status=$h.StatusCode; Type=$h.Headers."Content-Type"; Bytes=$null }
