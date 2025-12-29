@@ -9,6 +9,7 @@ $Paths = @(
   "/standards/",
   "/casebooks/",
   "/assets/css/bss.css",
+  "/assets/css/avatars.v9.css",
   "/assets/img/team/cleiton.webp",
   "/assets/img/team/luna.webp"
 )
