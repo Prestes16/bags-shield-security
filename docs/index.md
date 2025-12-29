@@ -62,7 +62,7 @@ title: Bags Shield Security
 <ul class="bss-compact">
   <li><strong>X:</strong> <a href="https://x.com/Cleiton16144221" rel="noopener">@Cleiton16144221</a></li>
   <li><strong>Discord:</strong> cleiton8509p</li>
-  <li><strong>Email:</strong> Cleitonprestes54@gmail.com</li>
+  <li><strong>Email:</strong> [Cleitonprestes54@gmail.com](mailto:Cleitonprestes54@gmail.com)</li>
 </ul>
 
 ## Leadership
@@ -93,3 +93,11 @@ title: Bags Shield Security
   <div class="bss-mini"><strong>Infra & release</strong><br/>CI gates, deploy safety, observability, rollback readiness.</div>
   <div class="bss-mini"><strong>AppSec hardening</strong><br/>Auth boundaries, webhooks, secrets, abuse resistance.</div>
 </div>
+
+---
+
+### Quick contact
+
+- Email: [Cleitonprestes54@gmail.com](mailto:Cleitonprestes54@gmail.com)
+- X: [@Cleiton16144221](https://x.com/Cleiton16144221)
+- Discord: [cleiton8509p](https://discord.com/app)

@@ -91,4 +91,18 @@ For teams that ship continuously and want a standing safety net.
 
 - X: @Cleiton16144221  
 - Discord: cleiton8509p  
-- Email: Cleitonprestes54@gmail.com
+- Email: [Cleitonprestes54@gmail.com](mailto:Cleitonprestes54@gmail.com)
+
+
+---
+
+## Contact (fast)
+
+If you want to start quickly, send:
+- Repo/PR link(s)
+- Deadline (when you want to ship)
+- 2-3 lines of context (what changed + what worries you)
+
+**Email:** [Cleitonprestes54@gmail.com](mailto:Cleitonprestes54@gmail.com)  
+**X:** [@Cleiton16144221](https://x.com/Cleiton16144221)  
+**Discord:** [cleiton8509p](https://discord.com/app)
