@@ -6,6 +6,7 @@ $Paths = @(
   "/",
   "/start/",
   "/services/",
+  "/contact/"
   "/standards/",
   "/casebooks/",
   "/assets/css/bss.css",
