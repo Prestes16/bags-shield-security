@@ -288,3 +288,8 @@ pre{
  .bss-person-note{color:rgba(246,247,255,.62);font-size:13px;margin-top:6px;line-height:1.35}
  .bss-muted{color:rgba(246,247,255,.62);font-size:13px;margin:8px 0 0}
  .bss-mini{padding:12px;border:1px solid rgba(255,255,255,.10);border-radius:16px;background:rgba(255,255,255,.03);color:rgba(246,247,255,.80)}
+
+.bss-avatar img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
