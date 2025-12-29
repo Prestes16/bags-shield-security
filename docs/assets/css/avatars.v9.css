@@ -13,8 +13,9 @@
 
 /* tamanho + ring premium simples */
 .bss-team .bss-avatar{
-  width: 104px !important;
-  height: 104px !important;
+  width: clamp(104px, 12vw, 112px) !important;
+  height: clamp(104px, 12vw, 112px) !important;
+  aspect-ratio: 1 / 1 !important;
   padding: 3px !important;
   border-radius: 50% !important;
   overflow: hidden !important;
@@ -22,12 +23,14 @@
   border: 1px solid rgba(255,255,255,0.12) !important;
   box-shadow:
     0 18px 42px rgba(0,0,0,0.62),
-    0 0 0 1px rgba(47,167,255,0.18) !important;
+    0 0 0 1px rgba(255,255,255,0.10),
+    0 0 0 3px rgba(47,167,255,0.12) !important;
 }
 
 .bss-team .bss-avatar img{
   width: 100% !important;
   height: 100% !important;
+  display: block !important;
   object-fit: cover !important;
   border-radius: 50% !important;
 }
