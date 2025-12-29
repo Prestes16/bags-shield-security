@@ -1,5 +1,6 @@
-﻿---
+---
 title: Operating Standards
+permalink: /standards/
 ---
 
 # Operating Standards (Public)
