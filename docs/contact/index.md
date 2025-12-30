@@ -3,6 +3,11 @@ title: Contact
 permalink: /contact/
 ---
 
+## Contact
+
+- **X:** <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
+- **Discord:** <a href="https://discord.com/channels/@me">cleiton8509p</a>
+- **Email:** <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a>
 # Contact
 
 <ul class="bss-contact">
