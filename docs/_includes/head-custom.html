@@ -1,2 +1,4 @@
-<link rel="stylesheet" href="{{ '/assets/css/bss.css?v=e926ede' | relative_url }}?v={{ site.github.build_revision }}">
-<link rel="stylesheet" href="{{ '/assets/css/avatars.v9.css?v=e926ede">
+{%- comment -%}
+Bags Shield Security — custom head (cache-bust CSS)
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/avatars.v9.css' | relative_url }}?v={{ site.github.build_revision | slice: 0, 7 }}">
