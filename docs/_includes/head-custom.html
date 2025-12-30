@@ -3,99 +3,205 @@ Bags Shield Security — custom head (cache-bust CSS)
 {%- endcomment -%}
 <link rel="stylesheet" href="{{ '/assets/css/avatars.v9.css' | relative_url }}?v={{ site.github.build_revision | slice: 0, 7 }}">
 
-<!-- BSS LAYOUT UNSTACK v9 -->
+<!-- BSS HOME PACK v9 (single source of truth) -->
 <style>
-  /* Leadership: 2 colunas no desktop, 1 no mobile */
-  .bss-team{
-    display:grid;
-    gap:18px;
-    grid-template-columns:repeat(2,minmax(0,1fr));
-    margin-top:12px;
+  :root{
+    --bss-bp: 720px;
+    --bss-radius: 18px;
+    --bss-border: rgba(255,255,255,.10);
+    --bss-bg: rgba(0,0,0,.12);
+    --bss-bg2: rgba(0,0,0,.18);
+    --bss-text: rgba(255,255,255,.92);
+    --bss-muted: rgba(255,255,255,.72);
+    --bss-accent: #4dd4ff;
+    --bss-accent2:#2fa7ff;
+  }
+
+  /* HR mais “premium” */
+  body .main-content hr{
+    border:0 !important;
+    height:1px !important;
+    background: rgba(255,255,255,.14) !important;
+    margin: 26px 0 !important;
+  }
+
+  /* HERO */
+  body .bss-hero{
+    padding: 28px 26px !important;
+    border: 1px solid var(--bss-border) !important;
+    border-radius: 22px !important;
+    background:
+      radial-gradient(900px 380px at 12% 0%, rgba(77,212,255,.14), transparent 60%),
+      linear-gradient(180deg, rgba(0,0,0,.26), rgba(0,0,0,.10)) !important;
+  }
+  body .bss-kicker{
+    font-size: 13px !important;
+    letter-spacing: .10em !important;
+    text-transform: uppercase !important;
+    color: var(--bss-muted) !important;
+  }
+  body .bss-title{
+    margin: 10px 0 8px !important;
+    font-size: 46px !important;
+    line-height: 1.05 !important;
+    color: var(--bss-text) !important;
+  }
+  body .bss-lead{
+    margin: 0 0 14px !important;
+    max-width: 72ch !important;
+    font-size: 18px !important;
+    color: var(--bss-muted) !important;
   }
   @media (max-width: 900px){
-    .bss-team{ grid-template-columns:1fr; }
+    body .bss-title{ font-size: 38px !important; }
   }
 
-  /* Person card: avatar à esquerda + texto à direita */
-  .bss-person{
-    display:flex;
-    gap:16px;
-    align-items:flex-start;
-    padding:16px 18px;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:18px;
-    background:rgba(0,0,0,.12);
-    backdrop-filter: blur(6px);
+  /* PILLS */
+  body .bss-pills{
+    display:flex !important;
+    flex-wrap:wrap !important;
+    gap:10px !important;
+    margin-top: 14px !important;
   }
-  .bss-avatar{ flex:0 0 84px; }
-  .bss-avatar-img{
-    width:84px; height:84px;
-    border-radius:999px;
-    object-fit:cover;
-    display:block;
+  body a.bss-pill{
+    display:inline-flex !important;
+    align-items:center !important;
+    padding:10px 14px !important;
+    border-radius:999px !important;
+    border:1px solid var(--bss-border) !important;
+    background: rgba(0,0,0,.14) !important;
+    text-decoration:none !important;
+    color: var(--bss-text) !important;
   }
-  .bss-person-meta{ min-width:0; }
-  .bss-person-name{ font-size:20px; line-height:1.15; margin:2px 0 4px; }
-  .bss-person-role{ opacity:.92; margin:0 0 6px; }
-  .bss-person-note{ opacity:.85; margin:0; }
+  body a.bss-pill:hover{
+    border-color: rgba(77,212,255,.45) !important;
+    background: rgba(77,212,255,.08) !important;
+  }
+  body a.bss-pill.primary{
+    border-color: rgba(77,212,255,.35) !important;
+    background: rgba(77,212,255,.10) !important;
+  }
 
-  /* Specialist network: garante 3 colunas no desktop */
-  .bss-grid{
-    display:grid;
-    gap:18px;
-    grid-template-columns:repeat(3,minmax(0,1fr));
+  /* METRICS (3 cards alinhados) */
+  body .bss-metrics{
+    display:grid !important;
+    grid-template-columns: repeat(3, minmax(0,1fr)) !important;
+    gap: 14px !important;
+    margin-top: 16px !important;
+  }
+  body .bss-metric{
+    padding: 14px 16px !important;
+    border: 1px solid var(--bss-border) !important;
+    border-radius: var(--bss-radius) !important;
+    background: var(--bss-bg2) !important;
+  }
+  body .bss-metric .k{
+    font-size: 12px !important;
+    letter-spacing:.10em !important;
+    text-transform: uppercase !important;
+    color: var(--bss-muted) !important;
+  }
+  body .bss-metric .v{
+    margin-top: 4px !important;
+    font-size: 16px !important;
+    color: var(--bss-text) !important;
   }
   @media (max-width: 900px){
-    .bss-grid{ grid-template-columns:1fr; }
+    body .bss-metrics{ grid-template-columns: 1fr !important; }
   }
 
-  /* Contact list: sem bullets feios */
-  .bss-compact{
-    list-style:none;
-    padding-left:0;
-    margin-left:0;
+  /* GRIDS (cards + specialist network) */
+  body .bss-grid{
+    display:grid !important;
+    gap:18px !important;
+    grid-template-columns: repeat(3, minmax(0,1fr)) !important;
   }
-  .bss-compact li{ margin:6px 0; }
-</style>
+  @media (max-width: 900px){
+    body .bss-grid{ grid-template-columns: 1fr !important; }
+  }
 
-<!-- BSS LAYOUT UNSTACK v9 HOTFIX -->
-<style>
-  /* força o layout mesmo se o tema tentar sobrescrever */
+  body .bss-card{
+    padding: 18px 18px !important;
+    border: 1px solid var(--bss-border) !important;
+    border-radius: var(--bss-radius) !important;
+    background: var(--bss-bg) !important;
+  }
+  body .bss-card h2{ margin-top:0 !important; }
+  body .bss-card p{ color: var(--bss-muted) !important; }
+  body .bss-cta a{
+    text-decoration:none !important;
+    color: var(--bss-accent) !important;
+  }
+  body .bss-cta a:hover{ text-decoration: underline !important; }
+
+  body .bss-mini{
+    padding: 16px 16px !important;
+    border: 1px solid var(--bss-border) !important;
+    border-radius: var(--bss-radius) !important;
+    background: var(--bss-bg) !important;
+    color: var(--bss-muted) !important;
+  }
+
+  /* CHECKLIST */
+  body .bss-check{
+    list-style:none !important;
+    padding-left:0 !important;
+    margin-left:0 !important;
+  }
+  body .bss-check li{
+    position:relative !important;
+    padding-left: 26px !important;
+    margin: 10px 0 !important;
+    color: var(--bss-muted) !important;
+  }
+  body .bss-check li::before{
+    content: "✓" !important;
+    position:absolute !important;
+    left:0 !important;
+    top:0 !important;
+    color: var(--bss-accent) !important;
+  }
+
+  /* CONTACT (sem bullets e com links bonitos) */
+  body .bss-compact{
+    list-style:none !important;
+    padding-left:0 !important;
+    margin-left:0 !important;
+  }
+  body .bss-compact li{ margin: 6px 0 !important; }
+  body .bss-compact a{ color: var(--bss-accent) !important; text-decoration:none !important; }
+  body .bss-compact a:hover{ text-decoration: underline !important; }
+
+  /* LEADERSHIP (cards 2 colunas) */
   body .bss-team{
     display:grid !important;
     gap:18px !important;
-    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
-    margin-top:12px !important;
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+    margin-top: 12px !important;
   }
   @media (max-width: 900px){
-    body .bss-team{ grid-template-columns:1fr !important; }
+    body .bss-team{ grid-template-columns: 1fr !important; }
   }
-
   body .bss-person{
     display:flex !important;
     gap:16px !important;
     align-items:flex-start !important;
     padding:16px 18px !important;
     border:1px solid rgba(255,255,255,.08) !important;
-    border-radius:18px !important;
-    background:rgba(0,0,0,.12) !important;
+    border-radius: 18px !important;
+    background: rgba(0,0,0,.14) !important;
     backdrop-filter: blur(6px) !important;
   }
-
-  body .bss-avatar{ flex:0 0 84px !important; }
+  body .bss-avatar{ flex: 0 0 84px !important; }
   body .bss-avatar-img{
-    width:84px !important; height:84px !important;
+    width:84px !important;
+    height:84px !important;
     border-radius:999px !important;
     object-fit:cover !important;
     display:block !important;
   }
-
-  body .bss-grid{
-    display:grid !important;
-    gap:18px !important;
-    grid-template-columns:repeat(3,minmax(0,1fr)) !important;
-  }
-  @media (max-width: 900px){
-    body .bss-grid{ grid-template-columns:1fr !important; }
-  }
+  body .bss-person-meta{ min-width:0 !important; }
+  body .bss-person-name{ font-size:20px !important; line-height:1.15 !important; margin:2px 0 4px !important; }
+  body .bss-person-role{ opacity:.92 !important; margin:0 0 6px !important; }
+  body .bss-person-note{ opacity:.85 !important; margin:0 !important; }
 </style>
