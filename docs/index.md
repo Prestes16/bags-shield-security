@@ -59,12 +59,9 @@ title: Bags Shield Security
 
 ## Contact
 
-<ul class="bss-compact">
-  <li><strong>X:</strong> <a href="https://x.com/Cleiton16144221" rel="noopener">@Cleiton16144221</a></li>
-  <li><strong>Discord:</strong> cleiton8509p</li>
-  <li><strong>Email:</strong> <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a></li>
-</ul>
-
+- **X:** <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
+- **Discord:** <a href="https://discord.com/channels/@me">cleiton8509p</a>
+- **Email:** <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a>
 ## Leadership
 <div class="bss-team">
   <div class="bss-person">
@@ -101,3 +98,9 @@ title: Bags Shield Security
 - Email: <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a>
 - X: <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
 - Discord: <a href="https://discord.com/channels/@me">cleiton8509p</a>
+
+## Quick contact
+
+- **Email:** <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a>
+- **X:** <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
+- **Discord:** <a href="https://discord.com/channels/@me">cleiton8509p</a>
