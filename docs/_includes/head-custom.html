@@ -2,3 +2,58 @@
 Bags Shield Security — custom head (cache-bust CSS)
 {%- endcomment -%}
 <link rel="stylesheet" href="{{ '/assets/css/avatars.v9.css' | relative_url }}?v={{ site.github.build_revision | slice: 0, 7 }}">
+
+<!-- BSS LAYOUT UNSTACK v9 -->
+<style>
+  /* Leadership: 2 colunas no desktop, 1 no mobile */
+  .bss-team{
+    display:grid;
+    gap:18px;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    margin-top:12px;
+  }
+  @media (max-width: 900px){
+    .bss-team{ grid-template-columns:1fr; }
+  }
+
+  /* Person card: avatar à esquerda + texto à direita */
+  .bss-person{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+    padding:16px 18px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    background:rgba(0,0,0,.12);
+    backdrop-filter: blur(6px);
+  }
+  .bss-avatar{ flex:0 0 84px; }
+  .bss-avatar-img{
+    width:84px; height:84px;
+    border-radius:999px;
+    object-fit:cover;
+    display:block;
+  }
+  .bss-person-meta{ min-width:0; }
+  .bss-person-name{ font-size:20px; line-height:1.15; margin:2px 0 4px; }
+  .bss-person-role{ opacity:.92; margin:0 0 6px; }
+  .bss-person-note{ opacity:.85; margin:0; }
+
+  /* Specialist network: garante 3 colunas no desktop */
+  .bss-grid{
+    display:grid;
+    gap:18px;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  @media (max-width: 900px){
+    .bss-grid{ grid-template-columns:1fr; }
+  }
+
+  /* Contact list: sem bullets feios */
+  .bss-compact{
+    list-style:none;
+    padding-left:0;
+    margin-left:0;
+  }
+  .bss-compact li{ margin:6px 0; }
+</style>
