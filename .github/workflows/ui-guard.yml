@@ -1,16 +1,16 @@
 name: UI guard
 
 on:
-  push:
-    branches: ["main"]
   pull_request:
-    branches: ["main"]
+    branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
   ui_guard:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run UI guard
+      - name: Run ui-guard
         shell: pwsh
         run: ./scripts/ui-guard.ps1
