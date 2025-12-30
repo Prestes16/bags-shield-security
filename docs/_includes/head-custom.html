@@ -57,3 +57,45 @@ Bags Shield Security — custom head (cache-bust CSS)
   }
   .bss-compact li{ margin:6px 0; }
 </style>
+
+<!-- BSS LAYOUT UNSTACK v9 HOTFIX -->
+<style>
+  /* força o layout mesmo se o tema tentar sobrescrever */
+  body .bss-team{
+    display:grid !important;
+    gap:18px !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    margin-top:12px !important;
+  }
+  @media (max-width: 900px){
+    body .bss-team{ grid-template-columns:1fr !important; }
+  }
+
+  body .bss-person{
+    display:flex !important;
+    gap:16px !important;
+    align-items:flex-start !important;
+    padding:16px 18px !important;
+    border:1px solid rgba(255,255,255,.08) !important;
+    border-radius:18px !important;
+    background:rgba(0,0,0,.12) !important;
+    backdrop-filter: blur(6px) !important;
+  }
+
+  body .bss-avatar{ flex:0 0 84px !important; }
+  body .bss-avatar-img{
+    width:84px !important; height:84px !important;
+    border-radius:999px !important;
+    object-fit:cover !important;
+    display:block !important;
+  }
+
+  body .bss-grid{
+    display:grid !important;
+    gap:18px !important;
+    grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  }
+  @media (max-width: 900px){
+    body .bss-grid{ grid-template-columns:1fr !important; }
+  }
+</style>
