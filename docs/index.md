@@ -90,6 +90,3 @@ title: Bags Shield Security
   <div class="bss-mini"><strong>Infra & release</strong><br/>CI gates, deploy safety, observability, rollback readiness.</div>
   <div class="bss-mini"><strong>AppSec hardening</strong><br/>Auth boundaries, webhooks, secrets, abuse resistance.</div>
 </div>
-
-<!-- ui_guard trigger -->
-<!-- ui_guard retrigger -->
