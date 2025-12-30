@@ -20,4 +20,4 @@ permalink: /contact/
 
 ## Response time
 
-We usually reply within 24–48h with next steps.
+We usually reply within 24-48h with next steps.
