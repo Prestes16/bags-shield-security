@@ -1,20 +1,9 @@
-# Force LF in repo (avoid CRLF warnings/drift)
-* text=auto eol=lf
-
-# Markdown / HTML / CSS / JS
+﻿* text=auto eol=lf
 *.md  text eol=lf
 *.html text eol=lf
-*.css text eol=lf
-*.js  text eol=lf
-*.json text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
 *.ps1 text eol=lf
-
-# Images/binaries
-*.png  binary
-*.jpg  binary
-*.jpeg binary
-*.webp binary
-*.ico  binary
-*.pdf  binary
+*.css text eol=lf
+*.js  text eol=lf
+*.ts  text eol=lf
