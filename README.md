@@ -1,4 +1,6 @@
-﻿# Bags Shield Security — Vitrine Pública
+# Bags Shield Security — Vitrine Pública
+
+**UI locked:** v9.2-locked.1 (guarded by ui_guard workflow + main branch protection)
 
 Este repositório hospeda a vitrine pública do time **Bags Shield Security**.
 
