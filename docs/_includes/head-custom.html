@@ -205,3 +205,40 @@ Bags Shield Security — custom head (cache-bust CSS)
   body .bss-person-role{ opacity:.92 !important; margin:0 0 6px !important; }
   body .bss-person-note{ opacity:.85 !important; margin:0 !important; }
 </style>
+
+<!-- BSS ELITE FRAME v9.1 -->
+<style>
+  :root{
+    --bss-frame: linear-gradient(135deg, rgba(77,212,255,.38), rgba(255,255,255,.12), rgba(47,167,255,.14));
+    --bss-fill:  linear-gradient(180deg, rgba(0,0,0,.24), rgba(0,0,0,.10));
+    --bss-shadow: 0 18px 40px rgba(0,0,0,.40);
+  }
+
+  /* Frame premium (mais nítido, menos “wash”) */
+  body .bss-hero,
+  body .bss-card,
+  body .bss-metric,
+  body .bss-person,
+  body .bss-mini{
+    border: 1px solid transparent !important;
+    background: var(--bss-fill) padding-box, var(--bss-frame) border-box !important;
+    box-shadow: var(--bss-shadow) !important;
+  }
+
+  /* Hero: leve ajuste de leitura */
+  body .bss-hero{ border-radius: 24px !important; }
+  body .bss-title{ letter-spacing: -0.02em !important; }
+  body .bss-lead{
+    max-width: 68ch !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Leadership: menos quebra feia e cara mais “clean” */
+  body .bss-person-name{ letter-spacing: -0.01em !important; }
+  body .bss-person-role{ font-size: 15px !important; line-height: 1.35 !important; }
+  body .bss-person-note{ font-size: 15px !important; line-height: 1.45 !important; }
+
+  /* Pills: um toque mais “elite” */
+  body a.bss-pill{ border-color: rgba(255,255,255,.14) !important; }
+  body a.bss-pill.primary{ border-color: rgba(77,212,255,.45) !important; }
+</style>
