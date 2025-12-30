@@ -62,6 +62,7 @@ title: Bags Shield Security
 - **X:** <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
 - **Discord:** <a href="https://discord.com/channels/@me">cleiton8509p</a>
 - **Email:** <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a>
+
 ## Leadership
 <div class="bss-team">
   <div class="bss-person">
