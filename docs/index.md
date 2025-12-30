@@ -59,32 +59,33 @@ title: Bags Shield Security
 
 ## Contact
 
-* X: <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
-* Discord: cleiton8509p
-* Email: <a href="mailto:Cleitonprestes54@gmail.com">Cleitonprestes54@gmail.com</a>
-## Leadership
+<ul class="bss-compact">
+  <li><strong>X:</strong> <a href="https://x.com/Cleiton16144221" rel="noopener">@Cleiton16144221</a></li>
+  <li><strong>Discord:</strong> cleiton8509p</li>
+  <li><strong>Email:</strong> <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a></li>
+</ul>
 
-<!-- BSS:LEADERSHIP v1 -->
-<div class="bss-leadership">
+## Leadership
+<div class="bss-team">
   <div class="bss-person">
-    <img class="bss-avatar" src="{{ '/assets/img/team/cleiton.webp' | relative_url }}" alt="Cleiton Prestes" width="96" height="96" loading="lazy">
-    <div class="bss-person__body">
-      <div class="bss-person__name">Cleiton Prestes</div>
-      <div class="bss-person__role">Founder / Security Research & Engineering</div>
-      <div class="bss-person__desc">Solana/Web3 integrations, release hardening, PR reviews, and shipping discipline.</div>
+    <div class="bss-avatar"><img class="bss-avatar-img" src="./assets/img/team/cleiton.webp" alt="Cleiton Prestes" loading="lazy" decoding="async" /></div>
+    <div class="bss-person-meta">
+      <div class="bss-person-name">Cleiton Prestes</div>
+      <div class="bss-person-role">Founder / Security Research & Engineering</div>
+      <div class="bss-person-note">Solana/Web3 integrations, release hardening, PR reviews, and shipping discipline.</div>
     </div>
   </div>
 
   <div class="bss-person">
-    <img class="bss-avatar" src="{{ '/assets/img/team/luna.webp' | relative_url }}" alt="Luna" width="96" height="96" loading="lazy">
-    <div class="bss-person__body">
-      <div class="bss-person__name">Luna</div>
-      <div class="bss-person__role">Research Ops / Analysis & Documentation</div>
-      <div class="bss-person__desc">Evidence-led analysis, triage support, structured docs, and repeatable hardening playbooks.</div>
+    <div class="bss-avatar"><img class="bss-avatar-img luna" src="./assets/img/team/luna.webp" alt="Luna" loading="lazy" decoding="async" /></div>
+    <div class="bss-person-meta">
+      <div class="bss-person-name">Luna</div>
+      <div class="bss-person-role">Research Ops / Analysis & Documentation</div>
+      <div class="bss-person-note">Evidence-led analysis, triage support, structured docs, and repeatable hardening playbooks.</div>
     </div>
   </div>
 </div>
-<!-- /BSS:LEADERSHIP v1 -->
+
 ## Specialist network (on-demand)
 
 <div class="bss-grid">
@@ -94,3 +95,9 @@ title: Bags Shield Security
 </div>
 
 ---
+
+### Quick contact
+
+- Email: <a href="mailto:secbagsshield@gmail.com">secbagsshield@gmail.com</a>
+- X: <a href="https://x.com/Cleiton16144221">@Cleiton16144221</a>
+- Discord: <a href="https://discord.com/channels/@me">cleiton8509p</a>
