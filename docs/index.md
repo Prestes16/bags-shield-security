@@ -5,10 +5,7 @@ title: Bags Shield Security
 <div class="bss-hero">
   <div class="bss-kicker">Boutique security / evidence-led / release-aware</div>
   <h1 class="bss-title"><span translate="no">Bags Shield Security</span></h1>
-  <p class="bss-lead">
-    Security research + engineering hardening for Web3/Solana systems -
-    integrations, APIs, webhooks, authentication, secrets handling, and release safety.
-  </p>
+  <p class="bss-lead">Security research + engineering hardening for Web3/Solana: integrations, APIs, webhooks, auth, secrets handling, and release safety.</p>
 
   <div class="bss-pills">
     <a class="bss-pill primary" href="./start/">Start here</a>
