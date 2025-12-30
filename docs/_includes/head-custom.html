@@ -242,3 +242,43 @@ Bags Shield Security — custom head (cache-bust CSS)
   body a.bss-pill{ border-color: rgba(255,255,255,.14) !important; }
   body a.bss-pill.primary{ border-color: rgba(77,212,255,.45) !important; }
 </style>
+
+<!-- BSS AVATAR PORTRAIT v9.2 -->
+<style>
+  /* alinha melhor o cartão com avatar retrato */
+  body .bss-person{ align-items:center !important; }
+
+  /* frame retrato (retângulo) */
+  body .bss-avatar{
+    flex: 0 0 auto !important;
+    width: 92px !important;
+    height: 120px !important;
+    padding: 3px !important;
+    border-radius: 16px !important;
+    background: var(--bss-frame, linear-gradient(135deg, rgba(77,212,255,.38), rgba(255,255,255,.12), rgba(47,167,255,.14))) !important;
+    box-shadow: 0 12px 26px rgba(0,0,0,.38) !important;
+  }
+
+  /* imagem dentro do frame: sem filtro e com recorte limpo */
+  body .bss-avatar-img{
+    width:100% !important;
+    height:100% !important;
+    border-radius: 13px !important;
+    object-fit: cover !important;
+    filter: none !important;
+    outline: none !important;
+    image-rendering: auto !important;
+    transform: translateZ(0) !important;
+    backface-visibility: hidden !important;
+  }
+
+  /* se algum CSS antigo mexer na versão "luna", a gente neutraliza */
+  body .bss-avatar-img.luna{
+    filter: none !important;
+    outline: none !important;
+  }
+
+  @media (max-width: 520px){
+    body .bss-avatar{ width: 76px !important; height: 98px !important; }
+  }
+</style>

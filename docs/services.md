@@ -87,15 +87,6 @@ For teams that ship continuously and want a standing safety net.
 
 ---
 
-## Contact
-
-- X: @Cleiton16144221  
-- Discord: cleiton8509p  
-- Email: [Cleitonprestes54@gmail.com](mailto:Cleitonprestes54@gmail.com)
-
-
----
-
 ## Contact (fast)
 
 If you want to start quickly, send:
